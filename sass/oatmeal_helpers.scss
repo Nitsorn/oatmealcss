@@ -1,0 +1,261 @@
+@import 'oatmeal_colors';
+
+/* Aligns
+/* Cursor
+/* Images
+/* Overflows
+/* Margins
+
+/* Aligns
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.align-center {
+  text-align: center;
+}
+.align-justify {
+  text-align: justify;
+}
+.align-top {
+  vertical-align: top;
+  display: block;
+}
+.align-bottom {
+  vertical-align: bottom;
+  display: block;
+}
+.align-middle {
+  vertical-align: middle;
+  display: block;
+}
+
+/* Cursor
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-default {
+  cursor: default;
+}
+.cursor-grab {
+  cursor: grab;
+}
+.cursor-text {
+  cursor: text;
+}
+
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.image {
+  background-repeat: no-repeat;
+  &.cover {
+    background-size: cover;
+  }
+  &.contain {
+    background-size: contain;
+  }
+}
+
+/* Overflows
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.overflow-hidden { overflow: hidden;  }
+.overflow-scroll { overflow: scroll;  }
+.overflow-auto   { overflow: auto;    }
+.over-overlay    { overflow: overlay; }
+
+
+/* Margins and centering
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.gap { margin: 5px; }
+.big-gap { margin: 10px; }
+.margin-auto { margin: auto; }
+.centered {
+  margin: auto;
+  display: block;
+}
+.margin-none {
+  margin: 0;
+}
+.margin-bottom-none, .no-margin-bottom {
+  margin-bottom: 0;
+}
+.margin-top-none, .no-margin-top {
+  margin-top: 0;
+}
+.margin-left-none, .no-margin-left {
+  margin-left: 0;
+}
+.margin-right-none .no-margin-right {
+  margin-right: 0;
+}
+
+/* Padding
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.padded { padding: 10px}
+.padded-big { padding: 20px;}
+.padded-small { padding: 7px;}
+
+
+/* Positions, displays and visibility
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.absolute { position: absolute; }
+.fixed { position: fixed; }
+.relative { position: relative; }
+.inline-block { display: inline-block; }
+.block { display: block; }
+.none { display: none; }
+.flex {
+  display: flex;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.float-right { float: right; }
+.float-left  { float: left;  }
+
+.visible { opacity: 1;  }
+.invisible { opacity: 0; }
+
+.top    { top: 0;    }
+.left   { left: 0;   }
+.right  { right: 0;  }
+.bottom { bottom: 0; }
+
+
+/* Basic Components
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+.section {
+  width: 88%;
+  display: block;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}
+.form {
+  width: 70%;
+  display: block;
+  margin: auto;
+  max-width: 700px;
+  min-width: 300px;
+}
+
+/* Widths
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.full-width {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+.full-width-max {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.half-width {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+
+/* Box-shadow
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.shadowed {
+  box-shadow: 0 1px 2px 0 rgba(black, 0.5);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(black, 0.5);
+  -moz-box-shadow: 0 1px 2px 0 rgba(black, 0.5);
+}
+.shadowed-big {
+  box-shadow: 0 2px 4px 0 rgba(black, 0.5);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(black, 0.5);
+  -moz-box-shadow: 0 2px 4px 0 rgba(black, 0.5);
+}
+
+/* Borders
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.border {
+  border-width: 2px;
+  border-style: solid;
+  border-color: $blue;
+  &.red {
+    border-color: $red;
+  }
+  &.blue {
+    border-color: $blue;
+  }
+  &.green {
+    border-color: $green;
+  }
+  &.yellow {
+    border-color: $yellow;
+  }
+  &.gray {
+    border-color: $gray;
+  }
+}
+
+/* Background
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.blue.background   { background-color: $blue;   }
+.red.background    { background-color: $red;    }
+.yellow.background { background-color: $yellow; }
+.green.background  { background-color: $green;  }
+.gray.background   { background-color: $gray;   }
+
+
+/* Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.capitalize { text-transform: capitalize; }
+.uppercase  { text-transform: uppercase;  }
+.lowercase  { text-transform: lowercase;  }
+
+.bold   { font-weight: bold;   }
+.light  { font-weight: light;  }
+.bolder { font-weight: bolder; }
+
+/* Clear
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.clear-css,
+.clear-css:hover,
+.clear-css:active,
+.clear-css:focus,
+.clear-css:after,
+.clear-css:before {
+  background-color: white;
+  color: $font;
+  width: 0;
+  height: 0;
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  -o-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  border-radius: 0;
+  border-width: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+}
