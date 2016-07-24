@@ -1,5 +1,6 @@
 @import 'oatmeal_colors';
 @import 'oatmeal_animations';
+@import "compass/css3";
 
 /* Divider
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -107,6 +108,7 @@ input[type="button"] {
   font-family: 'regular';
   &:hover {
     background-color: #45c6dc;
+    color: white;
   }
   &:after {
     content: "";
@@ -156,10 +158,73 @@ input[type="button"] {
   &.block {
     display: block;
   }
-  &.sharp {
+  &.sharp,
+  &.sharp-filled,
+  &.sharp-border {
     border-radius: 0;
   }
+  // other options
+  &.sharp-filled,
+  &.sharp-border,
+  &.round-filled,
+  &.round-border {
+    top: 0;
+    box-shadow: 0 0 0;
+    padding-top: 9px;
+    color: $font;
+    &.white-text {
+      color: white;
+    }
+    &:active, &:focus {
+      animation: none;
+    }
+    &:hover {
+      box-shadow: 0 1px 2px 0 rgba(black, 0.5);
+    }
+    &.no-hover-effect:hover {
+      box-shadow: 0 0 0;
+    }
+    &.red:hover {
+      background-color: $red;
+    }
+    &.green:hover {
+      background-color: $green;
+    }
+    &.yellow:hover {
+      background-color: $yellow;
+    }
+    &.gray:hover {
+      background-color: $gray;
+    }
+  }
 
+  &.shadowed {
+    -webkit-box-shadow: 0 1px 2px 0 rgba(black, 0.5);
+    -moz-box-shadow: 0 1px 2px 0 rgba(black, 0.5);
+    box-shadow: 0 1px 2px 0 rgba(black, 0.5);
+    &:hover {
+      -webkit-box-shadow: 0 2px 3px 0 rgba(black, 0.5);
+      -moz-box-shadow: 0 2px 3px 0 rgba(black, 0.5);
+      box-shadow: 0 2px 7px 0 rgba(black, 0.5);
+    }
+  }
+  &.round-filled,
+  &.round-border {
+    border-radius: 25px;
+    background-color: $default;
+  }
+  &.sharp-filled {
+    background-color: $default;
+    border-radius: 0;
+  }
+  &.sharp-border,
+  &.round-border {
+    background-color: transparent;
+    border: 2px solid $default;
+    &:hover {
+      background-color: $default;
+    }
+  }
 
 
   // colors
@@ -182,6 +247,9 @@ input[type="button"] {
   &.gray {
     background-color: $gray;
     border-color: $gray;
+  }
+  &.sharp-border, &.round-border {
+    background-color: transparent;
   }
 
   &:active,&:focus {
@@ -224,6 +292,9 @@ input[type="button"] {
 
 /* Inputs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -235,7 +306,7 @@ input[type="color"],
 textarea,
 select {
   height: 45px;
-  padding: 11px 15px;
+  padding: 11px 20px;
   background-color: transparent;
   border-width: 2px;
   border-style: solid;
@@ -254,9 +325,22 @@ select {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  &.half-width {
+    width: 50%;
+  }
 
-  &:focus, &:active {
+
+  &:focus, &:active, &:valid {
     border-color: $default;
+    padding: 18px 25px 12px 15px;
+    & + label {
+      opacity: 0.8;
+      font-size: 10px;
+      -webkit-transform: translate3d(3px, -12px, 0);
+      -moz-transform: translate3d(3px, -12px, 0);
+      -o-transform: translate3d(3px, -12px, 0);
+      transform: translate3d(3px, -12px, 0);
+    }
     &.green {
       border-color: $green;
     }
@@ -288,6 +372,7 @@ select {
     border-left-width: 0;
     border-right-width: 0;
     border-bottom-width: 4px;
+    box-shadow: 0 0 0 0;
     &:focus, &:active {
       box-shadow: 0 0 0 0;
     }
@@ -297,6 +382,13 @@ select {
     border-radius: 30px;
     background-color: $default;
     border-color: $default;
+
+    & + label {
+      color: white;
+    }
+    & + .dark {
+      color: $font;
+    }
 
     &.green {
       background-color: $green;
@@ -322,6 +414,12 @@ select {
   &.sharp-filled {
     border-radius: 0;
   }
+  &:disabled {
+    background-color: $gray;
+    & + label {
+      color: white;
+    }
+  }
 }
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
@@ -342,10 +440,26 @@ textarea {
   padding-bottom: 10px; }
 label,
 legend {
+  position: absolute;
+  top: 22px;
+  left: 23px;
+  font-size: 12px;
+  color: $gray;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
   display: block;
   margin-bottom: .5rem;
   font-weight: 600; }
 fieldset {
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
   padding: 0;
   border-width: 0; }
 input[type="checkbox"],
@@ -447,6 +561,7 @@ label > .label-body {
 
 
     .dropdown-item {
+      color: $font;
       display: block;
       width: 100%;
       background-color: $very-light-gray;
@@ -455,6 +570,7 @@ label > .label-body {
       border-radius: 0;
       margin: 0;
       transition: 0.05s ease;
+      padding: 11px;
       &:hover {
         background-color: $light-gray;
         box-sizing: 0 0 0;

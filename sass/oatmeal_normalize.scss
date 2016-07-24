@@ -23,7 +23,9 @@ body {
   margin: 0;
 }
 
-* {
+*,
+*:hover,
+*:focus {
   box-sizing: border-box;
 }
 

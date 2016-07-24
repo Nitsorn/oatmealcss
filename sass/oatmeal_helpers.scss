@@ -22,15 +22,15 @@
 }
 .align-top {
   vertical-align: top;
-  display: block;
+  display: inline-block;
 }
 .align-bottom {
   vertical-align: bottom;
-  display: block;
+  display: inline-block;
 }
 .align-middle {
   vertical-align: middle;
-  display: block;
+  display: inline-block;
 }
 
 /* Cursor
@@ -63,10 +63,10 @@
 /* Overflows
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.overflow-hidden { overflow: hidden;  }
-.overflow-scroll { overflow: scroll;  }
-.overflow-auto   { overflow: auto;    }
-.over-overlay    { overflow: overlay; }
+.overflow-hidden     { overflow: hidden;  }
+.overflow-scroll     { overflow: scroll;  }
+.overflow-auto       { overflow: auto;    }
+.overflow-overlay    { overflow: overlay; }
 
 
 /* Margins and centering
@@ -96,6 +96,7 @@
 
 /* Padding
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.unpadded { padding: 0; }
 .padded { padding: 10px}
 .padded-big { padding: 20px;}
 .padded-small { padding: 7px;}
@@ -143,7 +144,8 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 .section {
   width: 88%;
   display: block;
@@ -216,11 +218,11 @@
 
 /* Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.blue.background   { background-color: $blue;   }
-.red.background    { background-color: $red;    }
-.yellow.background { background-color: $yellow; }
-.green.background  { background-color: $green;  }
-.gray.background   { background-color: $gray;   }
+.blue.background   {  background-color: $blue; border-color: $blue;     }
+.red.background    {  background-color: $red; border-color: $red;       }
+.yellow.background {  background-color: $yellow; border-color: $yellow; }
+.green.background  {  background-color: $green; border-color: $green;   }
+.gray.background   {  background-color: $gray; border-color: $gray;     }
 
 
 /* Text

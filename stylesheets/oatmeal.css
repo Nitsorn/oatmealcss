@@ -26,7 +26,9 @@ body {
 }
 
 /* line 26, ../sass/oatmeal_normalize.scss */
-* {
+*,
+*:hover,
+*:focus {
   box-sizing: border-box;
 }
 
@@ -39,7 +41,7 @@ body {
  * Correct `block` display not defined for `main` in IE 11.
  */
 /* line 33, ../sass/normalize.scss */
-/* line 39, ../sass/oatmeal_normalize.scss */
+/* line 41, ../sass/oatmeal_normalize.scss */
 article,
 aside,
 details,
@@ -61,7 +63,7 @@ summary {
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 /* line 54, ../sass/normalize.scss */
-/* line 60, ../sass/oatmeal_normalize.scss */
+/* line 62, ../sass/oatmeal_normalize.scss */
 audio,
 canvas,
 progress,
@@ -77,7 +79,7 @@ video {
  * Remove excess height in iOS 5 devices.
  */
 /* line 67, ../sass/normalize.scss */
-/* line 75, ../sass/oatmeal_normalize.scss */
+/* line 77, ../sass/oatmeal_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -88,7 +90,7 @@ audio:not([controls]) {
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
 /* line 77, ../sass/normalize.scss */
-/* line 85, ../sass/oatmeal_normalize.scss */
+/* line 87, ../sass/oatmeal_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -100,7 +102,7 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 /* line 89, ../sass/normalize.scss */
-/* line 96, ../sass/oatmeal_normalize.scss */
+/* line 98, ../sass/oatmeal_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -109,7 +111,7 @@ a {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 /* line 97, ../sass/normalize.scss */
-/* line 104, ../sass/oatmeal_normalize.scss */
+/* line 106, ../sass/oatmeal_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -121,7 +123,7 @@ a:hover {
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 /* line 109, ../sass/normalize.scss */
-/* line 115, ../sass/oatmeal_normalize.scss */
+/* line 117, ../sass/oatmeal_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -130,7 +132,7 @@ abbr[title] {
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 /* line 117, ../sass/normalize.scss */
-/* line 123, ../sass/oatmeal_normalize.scss */
+/* line 125, ../sass/oatmeal_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -140,7 +142,7 @@ strong {
  * Address styling not present in Safari and Chrome.
  */
 /* line 126, ../sass/normalize.scss */
-/* line 132, ../sass/oatmeal_normalize.scss */
+/* line 134, ../sass/oatmeal_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -150,7 +152,7 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 /* line 135, ../sass/normalize.scss */
-/* line 141, ../sass/oatmeal_normalize.scss */
+/* line 143, ../sass/oatmeal_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -160,7 +162,7 @@ h1 {
  * Address styling not present in IE 8/9.
  */
 /* line 144, ../sass/normalize.scss */
-/* line 150, ../sass/oatmeal_normalize.scss */
+/* line 152, ../sass/oatmeal_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -170,7 +172,7 @@ mark {
  * Address inconsistent and variable font size in all browsers.
  */
 /* line 153, ../sass/normalize.scss */
-/* line 159, ../sass/oatmeal_normalize.scss */
+/* line 161, ../sass/oatmeal_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -179,7 +181,7 @@ small {
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
 /* line 161, ../sass/normalize.scss */
-/* line 167, ../sass/oatmeal_normalize.scss */
+/* line 169, ../sass/oatmeal_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -189,13 +191,13 @@ sup {
 }
 
 /* line 169, ../sass/normalize.scss */
-/* line 176, ../sass/oatmeal_normalize.scss */
+/* line 178, ../sass/oatmeal_normalize.scss */
 sup {
   top: -0.5em;
 }
 
 /* line 173, ../sass/normalize.scss */
-/* line 181, ../sass/oatmeal_normalize.scss */
+/* line 183, ../sass/oatmeal_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -206,7 +208,7 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 /* line 184, ../sass/normalize.scss */
-/* line 191, ../sass/oatmeal_normalize.scss */
+/* line 193, ../sass/oatmeal_normalize.scss */
 img {
   border: 0;
 }
@@ -215,7 +217,7 @@ img {
  * Correct overflow not hidden in IE 9/10/11.
  */
 /* line 192, ../sass/normalize.scss */
-/* line 199, ../sass/oatmeal_normalize.scss */
+/* line 201, ../sass/oatmeal_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -226,7 +228,7 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 /* line 203, ../sass/normalize.scss */
-/* line 209, ../sass/oatmeal_normalize.scss */
+/* line 211, ../sass/oatmeal_normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -235,7 +237,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 /* line 211, ../sass/normalize.scss */
-/* line 217, ../sass/oatmeal_normalize.scss */
+/* line 219, ../sass/oatmeal_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -246,7 +248,7 @@ hr {
  * Contain overflow in all browsers.
  */
 /* line 221, ../sass/normalize.scss */
-/* line 227, ../sass/oatmeal_normalize.scss */
+/* line 229, ../sass/oatmeal_normalize.scss */
 pre {
   overflow: auto;
 }
@@ -255,7 +257,7 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  */
 /* line 229, ../sass/normalize.scss */
-/* line 235, ../sass/oatmeal_normalize.scss */
+/* line 237, ../sass/oatmeal_normalize.scss */
 code,
 kbd,
 pre,
@@ -277,7 +279,7 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
 /* line 252, ../sass/normalize.scss */
-/* line 256, ../sass/oatmeal_normalize.scss */
+/* line 258, ../sass/oatmeal_normalize.scss */
 button,
 input,
 optgroup,
@@ -295,7 +297,7 @@ textarea {
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 /* line 266, ../sass/normalize.scss */
-/* line 273, ../sass/oatmeal_normalize.scss */
+/* line 275, ../sass/oatmeal_normalize.scss */
 button {
   overflow: visible;
 }
@@ -307,7 +309,7 @@ button {
  * Correct `select` style inheritance in Firefox.
  */
 /* line 277, ../sass/normalize.scss */
-/* line 284, ../sass/oatmeal_normalize.scss */
+/* line 286, ../sass/oatmeal_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -321,7 +323,7 @@ select {
  *    `input` and others.
  */
 /* line 290, ../sass/normalize.scss */
-/* line 297, ../sass/oatmeal_normalize.scss */
+/* line 299, ../sass/oatmeal_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -336,7 +338,7 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 /* line 302, ../sass/normalize.scss */
-/* line 311, ../sass/oatmeal_normalize.scss */
+/* line 313, ../sass/oatmeal_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -346,7 +348,7 @@ html input[disabled] {
  * Remove inner padding and border in Firefox 4+.
  */
 /* line 311, ../sass/normalize.scss */
-/* line 320, ../sass/oatmeal_normalize.scss */
+/* line 322, ../sass/oatmeal_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -358,7 +360,7 @@ input::-moz-focus-inner {
  * the UA stylesheet.
  */
 /* line 322, ../sass/normalize.scss */
-/* line 331, ../sass/oatmeal_normalize.scss */
+/* line 333, ../sass/oatmeal_normalize.scss */
 input {
   line-height: normal;
 }
@@ -371,7 +373,7 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  */
 /* line 334, ../sass/normalize.scss */
-/* line 343, ../sass/oatmeal_normalize.scss */
+/* line 345, ../sass/oatmeal_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -386,7 +388,7 @@ input[type="radio"] {
  * decrement button to change from `default` to `text`.
  */
 /* line 346, ../sass/normalize.scss */
-/* line 357, ../sass/oatmeal_normalize.scss */
+/* line 359, ../sass/oatmeal_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -398,7 +400,7 @@ input[type="number"]::-webkit-outer-spin-button {
  *    (include `-moz` to future-proof).
  */
 /* line 357, ../sass/normalize.scss */
-/* line 368, ../sass/oatmeal_normalize.scss */
+/* line 370, ../sass/oatmeal_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -414,7 +416,7 @@ input[type="search"] {
  * padding (and `textfield` appearance).
  */
 /* line 370, ../sass/normalize.scss */
-/* line 383, ../sass/oatmeal_normalize.scss */
+/* line 385, ../sass/oatmeal_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -424,7 +426,7 @@ input[type="search"]::-webkit-search-decoration {
  * Define consistent border, margin, and padding.
  */
 /* line 379, ../sass/normalize.scss */
-/* line 392, ../sass/oatmeal_normalize.scss */
+/* line 394, ../sass/oatmeal_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -436,7 +438,7 @@ fieldset {
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
 /* line 390, ../sass/normalize.scss */
-/* line 403, ../sass/oatmeal_normalize.scss */
+/* line 405, ../sass/oatmeal_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -448,7 +450,7 @@ legend {
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
 /* line 399, ../sass/normalize.scss */
-/* line 414, ../sass/oatmeal_normalize.scss */
+/* line 416, ../sass/oatmeal_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -458,7 +460,7 @@ textarea {
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 /* line 408, ../sass/normalize.scss */
-/* line 423, ../sass/oatmeal_normalize.scss */
+/* line 425, ../sass/oatmeal_normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -469,14 +471,14 @@ optgroup {
  * Remove most spacing between table cells.
  */
 /* line 419, ../sass/normalize.scss */
-/* line 433, ../sass/oatmeal_normalize.scss */
+/* line 435, ../sass/oatmeal_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /* line 424, ../sass/normalize.scss */
-/* line 439, ../sass/oatmeal_normalize.scss */
+/* line 441, ../sass/oatmeal_normalize.scss */
 td,
 th {
   padding: 0;
@@ -586,85 +588,85 @@ th {
   /* line 44, ../sass/oatmeal_skeleton.scss */
   .offset-by-one.column,
   .offset-by-one.columns {
-    margin-left: 8.66666666667%;
+    margin-left: 8.333333333333%;
   }
 
   /* line 46, ../sass/oatmeal_skeleton.scss */
   .offset-by-two.column,
   .offset-by-two.columns {
-    margin-left: 17.3333333333%;
+    margin-left: 16.666666666667%;
   }
 
   /* line 48, ../sass/oatmeal_skeleton.scss */
   .offset-by-three.column,
   .offset-by-three.columns {
-    margin-left: 26%;
+    margin-left: 25%;
   }
 
   /* line 50, ../sass/oatmeal_skeleton.scss */
   .offset-by-four.column,
   .offset-by-four.columns {
-    margin-left: 34.6666666667%;
+    margin-left: 33.333333333333%;
   }
 
   /* line 52, ../sass/oatmeal_skeleton.scss */
   .offset-by-five.column,
   .offset-by-five.columns {
-    margin-left: 43.3333333333%;
+    margin-left: 41.666666666667%;
   }
 
   /* line 54, ../sass/oatmeal_skeleton.scss */
   .offset-by-six.column,
   .offset-by-six.columns {
-    margin-left: 52%;
+    margin-left: 50%;
   }
 
   /* line 56, ../sass/oatmeal_skeleton.scss */
   .offset-by-seven.column,
   .offset-by-seven.columns {
-    margin-left: 60.6666666667%;
+    margin-left: 58.333333333333%;
   }
 
   /* line 58, ../sass/oatmeal_skeleton.scss */
   .offset-by-eight.column,
   .offset-by-eight.columns {
-    margin-left: 69.3333333333%;
+    margin-left: 66.666666666667%;
   }
 
   /* line 60, ../sass/oatmeal_skeleton.scss */
   .offset-by-nine.column,
   .offset-by-nine.columns {
-    margin-left: 78.0%;
+    margin-left: 75.0%;
   }
 
   /* line 62, ../sass/oatmeal_skeleton.scss */
   .offset-by-ten.column,
   .offset-by-ten.columns {
-    margin-left: 86.6666666667%;
+    margin-left: 83.333333333333%;
   }
 
   /* line 64, ../sass/oatmeal_skeleton.scss */
   .offset-by-eleven.column,
   .offset-by-eleven.columns {
-    margin-left: 95.3333333333%;
+    margin-left: 91.666666666667%;
   }
 
   /* line 67, ../sass/oatmeal_skeleton.scss */
   .offset-by-one-third.column,
   .offset-by-one-third.columns {
-    margin-left: 34.6666666667%;
+    margin-left: 33.333333333333%;
   }
 
   /* line 69, ../sass/oatmeal_skeleton.scss */
   .offset-by-two-thirds.column,
   .offset-by-two-thirds.columns {
-    margin-left: 69.3333333333%;
+    margin-left: 66.666666666667%;
   }
 
   /* line 72, ../sass/oatmeal_skeleton.scss */
   .offset-by-one-half.column,
   .offset-by-one-half.columns {
-    margin-left: 52%;
+    margin-left: 50%;
   }
 }
 /* Base Styles
@@ -1293,7 +1295,7 @@ there.
 }
 /* Divider
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 6, ../sass/oatmeal_components.scss */
+/* line 7, ../sass/oatmeal_components.scss */
 .divider {
   width: 100%;
   height: 30px;
@@ -1302,7 +1304,7 @@ there.
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 14, ../sass/oatmeal_components.scss */
+/* line 15, ../sass/oatmeal_components.scss */
 .button,
 .button.round,
 .button.blue,
@@ -1339,7 +1341,7 @@ input[type="button"] {
   overflow: hidden;
   font-family: 'regular';
 }
-/* line 41, ../sass/oatmeal_components.scss */
+/* line 42, ../sass/oatmeal_components.scss */
 .button.from-top,
 .button.round.from-top,
 .button.blue.from-top,
@@ -1356,7 +1358,7 @@ input[type="button"].from-top {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
-/* line 48, ../sass/oatmeal_components.scss */
+/* line 49, ../sass/oatmeal_components.scss */
 .button.from-top:active, .button.from-top.pressed,
 .button.round.from-top:active,
 .button.round.from-top.pressed,
@@ -1377,7 +1379,7 @@ input[type="button"].from-top.pressed {
   top: -1px;
   box-shadow: 0 -3px 0 0 #31575d, 2px -2px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 52, ../sass/oatmeal_components.scss */
+/* line 53, ../sass/oatmeal_components.scss */
 .button.from-top:focus,
 .button.round.from-top:focus,
 .button.blue.from-top:focus,
@@ -1392,7 +1394,7 @@ input[type="button"].from-top:focus {
   animation: press-from-top 0.4s ease, unpress-from-top 0.4s ease;
   animation-iteration-count: 1;
 }
-/* line 59, ../sass/oatmeal_components.scss */
+/* line 60, ../sass/oatmeal_components.scss */
 .button.from-left,
 .button.round.from-left,
 .button.blue.from-left,
@@ -1410,7 +1412,7 @@ input[type="button"].from-left {
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 4px;
 }
-/* line 67, ../sass/oatmeal_components.scss */
+/* line 68, ../sass/oatmeal_components.scss */
 .button.from-left:active, .button.from-left.pressed,
 .button.round.from-left:active,
 .button.round.from-left.pressed,
@@ -1432,7 +1434,7 @@ input[type="button"].from-left.pressed {
   left: -2px;
   box-shadow: -2px 0 0 0 #31575d, 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 72, ../sass/oatmeal_components.scss */
+/* line 73, ../sass/oatmeal_components.scss */
 .button.from-left:focus,
 .button.round.from-left:focus,
 .button.blue.from-left:focus,
@@ -1447,7 +1449,7 @@ input[type="button"].from-left:focus {
   animation: press-from-left 0.4s ease, unpress-from-left 0.4s ease;
   animation-iteration-count: 1;
 }
-/* line 79, ../sass/oatmeal_components.scss */
+/* line 80, ../sass/oatmeal_components.scss */
 .button.from-right,
 .button.round.from-right,
 .button.blue.from-right,
@@ -1465,7 +1467,7 @@ input[type="button"].from-right {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 7px;
 }
-/* line 87, ../sass/oatmeal_components.scss */
+/* line 88, ../sass/oatmeal_components.scss */
 .button.from-right:active, .button.from-right.pressed,
 .button.round.from-right:active,
 .button.round.from-right.pressed,
@@ -1487,7 +1489,7 @@ input[type="button"].from-right.pressed {
   right: -2px;
   box-shadow: 2px 0 0 0 #31575d, 3px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 92, ../sass/oatmeal_components.scss */
+/* line 93, ../sass/oatmeal_components.scss */
 .button.from-right:focus,
 .button.round.from-right:focus,
 .button.blue.from-right:focus,
@@ -1502,7 +1504,7 @@ input[type="button"].from-right:focus {
   animation: press-from-right 0.4s ease, unpress-from-right 0.4s ease;
   animation-iteration-count: 1;
 }
-/* line 108, ../sass/oatmeal_components.scss */
+/* line 109, ../sass/oatmeal_components.scss */
 .button:hover,
 .button.round:hover,
 .button.blue:hover,
@@ -1513,8 +1515,9 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
   background-color: #45c6dc;
+  color: white;
 }
-/* line 111, ../sass/oatmeal_components.scss */
+/* line 113, ../sass/oatmeal_components.scss */
 .button:after,
 .button.round:after,
 .button.blue:after,
@@ -1536,7 +1539,7 @@ input[type="button"]:after {
   transition: all 1s;
   border-radius: 30%;
 }
-/* line 124, ../sass/oatmeal_components.scss */
+/* line 126, ../sass/oatmeal_components.scss */
 .button:active, .button.pressed,
 .button.round:active,
 .button.round.pressed,
@@ -1558,7 +1561,7 @@ input[type="button"].pressed {
   top: 1px;
   box-shadow: 0 3px 0 0 #31575d, 1px 3px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 129, ../sass/oatmeal_components.scss */
+/* line 131, ../sass/oatmeal_components.scss */
 .button:active:after, .button.pressed:after,
 .button.round:active:after,
 .button.round.pressed:after,
@@ -1581,7 +1584,7 @@ input[type="button"].pressed:after {
   opacity: 1;
   transition: 0s;
 }
-/* line 136, ../sass/oatmeal_components.scss */
+/* line 138, ../sass/oatmeal_components.scss */
 .button:focus,
 .button.round:focus,
 .button.blue:focus,
@@ -1596,7 +1599,7 @@ input[type="button"]:focus {
   animation: press 0.4s ease, unpress 0.4s ease;
   animation-iteration-count: 1;
 }
-/* line 145, ../sass/oatmeal_components.scss */
+/* line 147, ../sass/oatmeal_components.scss */
 .button.full-width, .button.full-width-max,
 .button.round.full-width,
 .button.round.full-width-max,
@@ -1620,7 +1623,7 @@ input[type="button"].full-width-max {
   margin-left: 20px;
   margin-right: 20px;
 }
-/* line 152, ../sass/oatmeal_components.scss */
+/* line 154, ../sass/oatmeal_components.scss */
 .button.white-text,
 .button.round.white-text,
 .button.blue.white-text,
@@ -1632,7 +1635,7 @@ input[type="reset"].white-text,
 input[type="button"].white-text {
   color: white;
 }
-/* line 156, ../sass/oatmeal_components.scss */
+/* line 158, ../sass/oatmeal_components.scss */
 .button.block,
 .button.round.block,
 .button.blue.block,
@@ -1644,19 +1647,497 @@ input[type="reset"].block,
 input[type="button"].block {
   display: block;
 }
-/* line 159, ../sass/oatmeal_components.scss */
-.button.sharp,
+/* line 161, ../sass/oatmeal_components.scss */
+.button.sharp, .button.sharp-filled, .button.sharp-border,
 .button.round.sharp,
+.button.round.sharp-filled,
+.button.round.sharp-border,
 .button.blue.sharp,
+.button.blue.sharp-filled,
+.button.blue.sharp-border,
 .dropdown-title.sharp,
+.dropdown-title.sharp-filled,
+.dropdown-title.sharp-border,
 .dropdown-item.sharp,
+.dropdown-item.sharp-filled,
+.dropdown-item.sharp-border,
 button.sharp,
+button.sharp-filled,
+button.sharp-border,
 input[type="submit"].sharp,
+input[type="submit"].sharp-filled,
+input[type="submit"].sharp-border,
 input[type="reset"].sharp,
-input[type="button"].sharp {
+input[type="reset"].sharp-filled,
+input[type="reset"].sharp-border,
+input[type="button"].sharp,
+input[type="button"].sharp-filled,
+input[type="button"].sharp-border {
   border-radius: 0;
 }
-/* line 166, ../sass/oatmeal_components.scss */
+/* line 167, ../sass/oatmeal_components.scss */
+.button.sharp-filled, .button.sharp-border, .button.round-filled, .button.round-border,
+.button.round.sharp-filled,
+.button.round.sharp-border,
+.button.round.round-filled,
+.button.round.round-border,
+.button.blue.sharp-filled,
+.button.blue.sharp-border,
+.button.blue.round-filled,
+.button.blue.round-border,
+.dropdown-title.sharp-filled,
+.dropdown-title.sharp-border,
+.dropdown-title.round-filled,
+.dropdown-title.round-border,
+.dropdown-item.sharp-filled,
+.dropdown-item.sharp-border,
+.dropdown-item.round-filled,
+.dropdown-item.round-border,
+button.sharp-filled,
+button.sharp-border,
+button.round-filled,
+button.round-border,
+input[type="submit"].sharp-filled,
+input[type="submit"].sharp-border,
+input[type="submit"].round-filled,
+input[type="submit"].round-border,
+input[type="reset"].sharp-filled,
+input[type="reset"].sharp-border,
+input[type="reset"].round-filled,
+input[type="reset"].round-border,
+input[type="button"].sharp-filled,
+input[type="button"].sharp-border,
+input[type="button"].round-filled,
+input[type="button"].round-border {
+  top: 0;
+  box-shadow: 0 0 0;
+  padding-top: 9px;
+  color: #4c4c4c;
+}
+/* line 175, ../sass/oatmeal_components.scss */
+.button.sharp-filled.white-text, .button.sharp-border.white-text, .button.round-filled.white-text, .button.round-border.white-text,
+.button.round.sharp-filled.white-text,
+.button.round.sharp-border.white-text,
+.button.round.round-filled.white-text,
+.button.round.round-border.white-text,
+.button.blue.sharp-filled.white-text,
+.button.blue.sharp-border.white-text,
+.button.blue.round-filled.white-text,
+.button.blue.round-border.white-text,
+.dropdown-title.sharp-filled.white-text,
+.dropdown-title.sharp-border.white-text,
+.dropdown-title.round-filled.white-text,
+.dropdown-title.round-border.white-text,
+.dropdown-item.sharp-filled.white-text,
+.dropdown-item.sharp-border.white-text,
+.dropdown-item.round-filled.white-text,
+.dropdown-item.round-border.white-text,
+button.sharp-filled.white-text,
+button.sharp-border.white-text,
+button.round-filled.white-text,
+button.round-border.white-text,
+input[type="submit"].sharp-filled.white-text,
+input[type="submit"].sharp-border.white-text,
+input[type="submit"].round-filled.white-text,
+input[type="submit"].round-border.white-text,
+input[type="reset"].sharp-filled.white-text,
+input[type="reset"].sharp-border.white-text,
+input[type="reset"].round-filled.white-text,
+input[type="reset"].round-border.white-text,
+input[type="button"].sharp-filled.white-text,
+input[type="button"].sharp-border.white-text,
+input[type="button"].round-filled.white-text,
+input[type="button"].round-border.white-text {
+  color: white;
+}
+/* line 178, ../sass/oatmeal_components.scss */
+.button.sharp-filled:active, .button.sharp-filled:focus, .button.sharp-border:active, .button.sharp-border:focus, .button.round-filled:active, .button.round-filled:focus, .button.round-border:active, .button.round-border:focus,
+.button.round.sharp-filled:active,
+.button.round.sharp-filled:focus,
+.button.round.sharp-border:active,
+.button.round.sharp-border:focus,
+.button.round.round-filled:active,
+.button.round.round-filled:focus,
+.button.round.round-border:active,
+.button.round.round-border:focus,
+.button.blue.sharp-filled:active,
+.button.blue.sharp-filled:focus,
+.button.blue.sharp-border:active,
+.button.blue.sharp-border:focus,
+.button.blue.round-filled:active,
+.button.blue.round-filled:focus,
+.button.blue.round-border:active,
+.button.blue.round-border:focus,
+.dropdown-title.sharp-filled:active,
+.dropdown-title.sharp-filled:focus,
+.dropdown-title.sharp-border:active,
+.dropdown-title.sharp-border:focus,
+.dropdown-title.round-filled:active,
+.dropdown-title.round-filled:focus,
+.dropdown-title.round-border:active,
+.dropdown-title.round-border:focus,
+.dropdown-item.sharp-filled:active,
+.dropdown-item.sharp-filled:focus,
+.dropdown-item.sharp-border:active,
+.dropdown-item.sharp-border:focus,
+.dropdown-item.round-filled:active,
+.dropdown-item.round-filled:focus,
+.dropdown-item.round-border:active,
+.dropdown-item.round-border:focus,
+button.sharp-filled:active,
+button.sharp-filled:focus,
+button.sharp-border:active,
+button.sharp-border:focus,
+button.round-filled:active,
+button.round-filled:focus,
+button.round-border:active,
+button.round-border:focus,
+input[type="submit"].sharp-filled:active,
+input[type="submit"].sharp-filled:focus,
+input[type="submit"].sharp-border:active,
+input[type="submit"].sharp-border:focus,
+input[type="submit"].round-filled:active,
+input[type="submit"].round-filled:focus,
+input[type="submit"].round-border:active,
+input[type="submit"].round-border:focus,
+input[type="reset"].sharp-filled:active,
+input[type="reset"].sharp-filled:focus,
+input[type="reset"].sharp-border:active,
+input[type="reset"].sharp-border:focus,
+input[type="reset"].round-filled:active,
+input[type="reset"].round-filled:focus,
+input[type="reset"].round-border:active,
+input[type="reset"].round-border:focus,
+input[type="button"].sharp-filled:active,
+input[type="button"].sharp-filled:focus,
+input[type="button"].sharp-border:active,
+input[type="button"].sharp-border:focus,
+input[type="button"].round-filled:active,
+input[type="button"].round-filled:focus,
+input[type="button"].round-border:active,
+input[type="button"].round-border:focus {
+  animation: none;
+}
+/* line 181, ../sass/oatmeal_components.scss */
+.button.sharp-filled:hover, .button.sharp-border:hover, .button.round-filled:hover, .button.round-border:hover,
+.button.round.sharp-filled:hover,
+.button.round.sharp-border:hover,
+.button.round.round-filled:hover,
+.button.round.round-border:hover,
+.button.blue.sharp-filled:hover,
+.button.blue.sharp-border:hover,
+.button.blue.round-filled:hover,
+.button.blue.round-border:hover,
+.dropdown-title.sharp-filled:hover,
+.dropdown-title.sharp-border:hover,
+.dropdown-title.round-filled:hover,
+.dropdown-title.round-border:hover,
+.dropdown-item.sharp-filled:hover,
+.dropdown-item.sharp-border:hover,
+.dropdown-item.round-filled:hover,
+.dropdown-item.round-border:hover,
+button.sharp-filled:hover,
+button.sharp-border:hover,
+button.round-filled:hover,
+button.round-border:hover,
+input[type="submit"].sharp-filled:hover,
+input[type="submit"].sharp-border:hover,
+input[type="submit"].round-filled:hover,
+input[type="submit"].round-border:hover,
+input[type="reset"].sharp-filled:hover,
+input[type="reset"].sharp-border:hover,
+input[type="reset"].round-filled:hover,
+input[type="reset"].round-border:hover,
+input[type="button"].sharp-filled:hover,
+input[type="button"].sharp-border:hover,
+input[type="button"].round-filled:hover,
+input[type="button"].round-border:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 184, ../sass/oatmeal_components.scss */
+.button.sharp-filled.no-hover-effect:hover, .button.sharp-border.no-hover-effect:hover, .button.round-filled.no-hover-effect:hover, .button.round-border.no-hover-effect:hover,
+.button.round.sharp-filled.no-hover-effect:hover,
+.button.round.sharp-border.no-hover-effect:hover,
+.button.round.round-filled.no-hover-effect:hover,
+.button.round.round-border.no-hover-effect:hover,
+.button.blue.sharp-filled.no-hover-effect:hover,
+.button.blue.sharp-border.no-hover-effect:hover,
+.button.blue.round-filled.no-hover-effect:hover,
+.button.blue.round-border.no-hover-effect:hover,
+.dropdown-title.sharp-filled.no-hover-effect:hover,
+.dropdown-title.sharp-border.no-hover-effect:hover,
+.dropdown-title.round-filled.no-hover-effect:hover,
+.dropdown-title.round-border.no-hover-effect:hover,
+.dropdown-item.sharp-filled.no-hover-effect:hover,
+.dropdown-item.sharp-border.no-hover-effect:hover,
+.dropdown-item.round-filled.no-hover-effect:hover,
+.dropdown-item.round-border.no-hover-effect:hover,
+button.sharp-filled.no-hover-effect:hover,
+button.sharp-border.no-hover-effect:hover,
+button.round-filled.no-hover-effect:hover,
+button.round-border.no-hover-effect:hover,
+input[type="submit"].sharp-filled.no-hover-effect:hover,
+input[type="submit"].sharp-border.no-hover-effect:hover,
+input[type="submit"].round-filled.no-hover-effect:hover,
+input[type="submit"].round-border.no-hover-effect:hover,
+input[type="reset"].sharp-filled.no-hover-effect:hover,
+input[type="reset"].sharp-border.no-hover-effect:hover,
+input[type="reset"].round-filled.no-hover-effect:hover,
+input[type="reset"].round-border.no-hover-effect:hover,
+input[type="button"].sharp-filled.no-hover-effect:hover,
+input[type="button"].sharp-border.no-hover-effect:hover,
+input[type="button"].round-filled.no-hover-effect:hover,
+input[type="button"].round-border.no-hover-effect:hover {
+  box-shadow: 0 0 0;
+}
+/* line 187, ../sass/oatmeal_components.scss */
+.button.sharp-filled.red:hover, .button.sharp-border.red:hover, .button.round-filled.red:hover, .button.round-border.red:hover,
+.button.round.sharp-filled.red:hover,
+.button.round.sharp-border.red:hover,
+.button.round.round-filled.red:hover,
+.button.round.round-border.red:hover,
+.button.blue.sharp-filled.red:hover,
+.button.blue.sharp-border.red:hover,
+.button.blue.round-filled.red:hover,
+.button.blue.round-border.red:hover,
+.dropdown-title.sharp-filled.red:hover,
+.dropdown-title.sharp-border.red:hover,
+.dropdown-title.round-filled.red:hover,
+.dropdown-title.round-border.red:hover,
+.dropdown-item.sharp-filled.red:hover,
+.dropdown-item.sharp-border.red:hover,
+.dropdown-item.round-filled.red:hover,
+.dropdown-item.round-border.red:hover,
+button.sharp-filled.red:hover,
+button.sharp-border.red:hover,
+button.round-filled.red:hover,
+button.round-border.red:hover,
+input[type="submit"].sharp-filled.red:hover,
+input[type="submit"].sharp-border.red:hover,
+input[type="submit"].round-filled.red:hover,
+input[type="submit"].round-border.red:hover,
+input[type="reset"].sharp-filled.red:hover,
+input[type="reset"].sharp-border.red:hover,
+input[type="reset"].round-filled.red:hover,
+input[type="reset"].round-border.red:hover,
+input[type="button"].sharp-filled.red:hover,
+input[type="button"].sharp-border.red:hover,
+input[type="button"].round-filled.red:hover,
+input[type="button"].round-border.red:hover {
+  background-color: #E65045;
+}
+/* line 190, ../sass/oatmeal_components.scss */
+.button.sharp-filled.green:hover, .button.sharp-border.green:hover, .button.round-filled.green:hover, .button.round-border.green:hover,
+.button.round.sharp-filled.green:hover,
+.button.round.sharp-border.green:hover,
+.button.round.round-filled.green:hover,
+.button.round.round-border.green:hover,
+.button.blue.sharp-filled.green:hover,
+.button.blue.sharp-border.green:hover,
+.button.blue.round-filled.green:hover,
+.button.blue.round-border.green:hover,
+.dropdown-title.sharp-filled.green:hover,
+.dropdown-title.sharp-border.green:hover,
+.dropdown-title.round-filled.green:hover,
+.dropdown-title.round-border.green:hover,
+.dropdown-item.sharp-filled.green:hover,
+.dropdown-item.sharp-border.green:hover,
+.dropdown-item.round-filled.green:hover,
+.dropdown-item.round-border.green:hover,
+button.sharp-filled.green:hover,
+button.sharp-border.green:hover,
+button.round-filled.green:hover,
+button.round-border.green:hover,
+input[type="submit"].sharp-filled.green:hover,
+input[type="submit"].sharp-border.green:hover,
+input[type="submit"].round-filled.green:hover,
+input[type="submit"].round-border.green:hover,
+input[type="reset"].sharp-filled.green:hover,
+input[type="reset"].sharp-border.green:hover,
+input[type="reset"].round-filled.green:hover,
+input[type="reset"].round-border.green:hover,
+input[type="button"].sharp-filled.green:hover,
+input[type="button"].sharp-border.green:hover,
+input[type="button"].round-filled.green:hover,
+input[type="button"].round-border.green:hover {
+  background-color: #64D269;
+}
+/* line 193, ../sass/oatmeal_components.scss */
+.button.sharp-filled.yellow:hover, .button.sharp-border.yellow:hover, .button.round-filled.yellow:hover, .button.round-border.yellow:hover,
+.button.round.sharp-filled.yellow:hover,
+.button.round.sharp-border.yellow:hover,
+.button.round.round-filled.yellow:hover,
+.button.round.round-border.yellow:hover,
+.button.blue.sharp-filled.yellow:hover,
+.button.blue.sharp-border.yellow:hover,
+.button.blue.round-filled.yellow:hover,
+.button.blue.round-border.yellow:hover,
+.dropdown-title.sharp-filled.yellow:hover,
+.dropdown-title.sharp-border.yellow:hover,
+.dropdown-title.round-filled.yellow:hover,
+.dropdown-title.round-border.yellow:hover,
+.dropdown-item.sharp-filled.yellow:hover,
+.dropdown-item.sharp-border.yellow:hover,
+.dropdown-item.round-filled.yellow:hover,
+.dropdown-item.round-border.yellow:hover,
+button.sharp-filled.yellow:hover,
+button.sharp-border.yellow:hover,
+button.round-filled.yellow:hover,
+button.round-border.yellow:hover,
+input[type="submit"].sharp-filled.yellow:hover,
+input[type="submit"].sharp-border.yellow:hover,
+input[type="submit"].round-filled.yellow:hover,
+input[type="submit"].round-border.yellow:hover,
+input[type="reset"].sharp-filled.yellow:hover,
+input[type="reset"].sharp-border.yellow:hover,
+input[type="reset"].round-filled.yellow:hover,
+input[type="reset"].round-border.yellow:hover,
+input[type="button"].sharp-filled.yellow:hover,
+input[type="button"].sharp-border.yellow:hover,
+input[type="button"].round-filled.yellow:hover,
+input[type="button"].round-border.yellow:hover {
+  background-color: #EDB04D;
+}
+/* line 196, ../sass/oatmeal_components.scss */
+.button.sharp-filled.gray:hover, .button.sharp-border.gray:hover, .button.round-filled.gray:hover, .button.round-border.gray:hover,
+.button.round.sharp-filled.gray:hover,
+.button.round.sharp-border.gray:hover,
+.button.round.round-filled.gray:hover,
+.button.round.round-border.gray:hover,
+.button.blue.sharp-filled.gray:hover,
+.button.blue.sharp-border.gray:hover,
+.button.blue.round-filled.gray:hover,
+.button.blue.round-border.gray:hover,
+.dropdown-title.sharp-filled.gray:hover,
+.dropdown-title.sharp-border.gray:hover,
+.dropdown-title.round-filled.gray:hover,
+.dropdown-title.round-border.gray:hover,
+.dropdown-item.sharp-filled.gray:hover,
+.dropdown-item.sharp-border.gray:hover,
+.dropdown-item.round-filled.gray:hover,
+.dropdown-item.round-border.gray:hover,
+button.sharp-filled.gray:hover,
+button.sharp-border.gray:hover,
+button.round-filled.gray:hover,
+button.round-border.gray:hover,
+input[type="submit"].sharp-filled.gray:hover,
+input[type="submit"].sharp-border.gray:hover,
+input[type="submit"].round-filled.gray:hover,
+input[type="submit"].round-border.gray:hover,
+input[type="reset"].sharp-filled.gray:hover,
+input[type="reset"].sharp-border.gray:hover,
+input[type="reset"].round-filled.gray:hover,
+input[type="reset"].round-border.gray:hover,
+input[type="button"].sharp-filled.gray:hover,
+input[type="button"].sharp-border.gray:hover,
+input[type="button"].round-filled.gray:hover,
+input[type="button"].round-border.gray:hover {
+  background-color: #BBBBBB;
+}
+/* line 201, ../sass/oatmeal_components.scss */
+.button.shadowed,
+.button.round.shadowed,
+.button.blue.shadowed,
+.dropdown-title.shadowed,
+.dropdown-item.shadowed,
+button.shadowed,
+input[type="submit"].shadowed,
+input[type="reset"].shadowed,
+input[type="button"].shadowed {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 205, ../sass/oatmeal_components.scss */
+.button.shadowed:hover,
+.button.round.shadowed:hover,
+.button.blue.shadowed:hover,
+.dropdown-title.shadowed:hover,
+.dropdown-item.shadowed:hover,
+button.shadowed:hover,
+input[type="submit"].shadowed:hover,
+input[type="reset"].shadowed:hover,
+input[type="button"].shadowed:hover {
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 211, ../sass/oatmeal_components.scss */
+.button.round-filled, .button.round-border,
+.button.round.round-filled,
+.button.round.round-border,
+.button.blue.round-filled,
+.button.blue.round-border,
+.dropdown-title.round-filled,
+.dropdown-title.round-border,
+.dropdown-item.round-filled,
+.dropdown-item.round-border,
+button.round-filled,
+button.round-border,
+input[type="submit"].round-filled,
+input[type="submit"].round-border,
+input[type="reset"].round-filled,
+input[type="reset"].round-border,
+input[type="button"].round-filled,
+input[type="button"].round-border {
+  border-radius: 25px;
+  background-color: #69C6D7;
+}
+/* line 216, ../sass/oatmeal_components.scss */
+.button.sharp-filled,
+.button.round.sharp-filled,
+.button.blue.sharp-filled,
+.dropdown-title.sharp-filled,
+.dropdown-item.sharp-filled,
+button.sharp-filled,
+input[type="submit"].sharp-filled,
+input[type="reset"].sharp-filled,
+input[type="button"].sharp-filled {
+  background-color: #69C6D7;
+  border-radius: 0;
+}
+/* line 220, ../sass/oatmeal_components.scss */
+.button.sharp-border, .button.round-border,
+.button.round.sharp-border,
+.button.round.round-border,
+.button.blue.sharp-border,
+.button.blue.round-border,
+.dropdown-title.sharp-border,
+.dropdown-title.round-border,
+.dropdown-item.sharp-border,
+.dropdown-item.round-border,
+button.sharp-border,
+button.round-border,
+input[type="submit"].sharp-border,
+input[type="submit"].round-border,
+input[type="reset"].sharp-border,
+input[type="reset"].round-border,
+input[type="button"].sharp-border,
+input[type="button"].round-border {
+  background-color: transparent;
+  border: 2px solid #69C6D7;
+}
+/* line 224, ../sass/oatmeal_components.scss */
+.button.sharp-border:hover, .button.round-border:hover,
+.button.round.sharp-border:hover,
+.button.round.round-border:hover,
+.button.blue.sharp-border:hover,
+.button.blue.round-border:hover,
+.dropdown-title.sharp-border:hover,
+.dropdown-title.round-border:hover,
+.dropdown-item.sharp-border:hover,
+.dropdown-item.round-border:hover,
+button.sharp-border:hover,
+button.round-border:hover,
+input[type="submit"].sharp-border:hover,
+input[type="submit"].round-border:hover,
+input[type="reset"].sharp-border:hover,
+input[type="reset"].round-border:hover,
+input[type="button"].sharp-border:hover,
+input[type="button"].round-border:hover {
+  background-color: #69C6D7;
+}
+/* line 231, ../sass/oatmeal_components.scss */
 .button.green,
 .button.round.green,
 .button.blue.green,
@@ -1669,7 +2150,7 @@ input[type="button"].green {
   background-color: #64D269;
   border-color: #64D269;
 }
-/* line 170, ../sass/oatmeal_components.scss */
+/* line 235, ../sass/oatmeal_components.scss */
 .button.blue,
 .button.round.blue,
 .button.blue.blue,
@@ -1682,7 +2163,7 @@ input[type="button"].blue {
   background-color: #69C6D7;
   border-color: #69C6D7;
 }
-/* line 174, ../sass/oatmeal_components.scss */
+/* line 239, ../sass/oatmeal_components.scss */
 .button.red,
 .button.round.red,
 .button.blue.red,
@@ -1695,7 +2176,7 @@ input[type="button"].red {
   background-color: #E65045;
   border-color: #E65045;
 }
-/* line 178, ../sass/oatmeal_components.scss */
+/* line 243, ../sass/oatmeal_components.scss */
 .button.yellow,
 .button.round.yellow,
 .button.blue.yellow,
@@ -1708,7 +2189,7 @@ input[type="button"].yellow {
   background-color: #EDB04D;
   border-color: #EDB04D;
 }
-/* line 182, ../sass/oatmeal_components.scss */
+/* line 247, ../sass/oatmeal_components.scss */
 .button.gray,
 .button.round.gray,
 .button.blue.gray,
@@ -1721,7 +2202,27 @@ input[type="button"].gray {
   background-color: #BBBBBB;
   border-color: #BBBBBB;
 }
-/* line 187, ../sass/oatmeal_components.scss */
+/* line 251, ../sass/oatmeal_components.scss */
+.button.sharp-border, .button.round-border,
+.button.round.sharp-border,
+.button.round.round-border,
+.button.blue.sharp-border,
+.button.blue.round-border,
+.dropdown-title.sharp-border,
+.dropdown-title.round-border,
+.dropdown-item.sharp-border,
+.dropdown-item.round-border,
+button.sharp-border,
+button.round-border,
+input[type="submit"].sharp-border,
+input[type="submit"].round-border,
+input[type="reset"].sharp-border,
+input[type="reset"].round-border,
+input[type="button"].sharp-border,
+input[type="button"].round-border {
+  background-color: transparent;
+}
+/* line 255, ../sass/oatmeal_components.scss */
 .button:active, .button:focus,
 .button.round:active,
 .button.round:focus,
@@ -1741,7 +2242,7 @@ input[type="button"]:active,
 input[type="button"]:focus {
   outline: 0;
 }
-/* line 192, ../sass/oatmeal_components.scss */
+/* line 260, ../sass/oatmeal_components.scss */
 .button.no-margin-left,
 .button.round.no-margin-left,
 .button.blue.no-margin-left,
@@ -1753,7 +2254,7 @@ input[type="reset"].no-margin-left,
 input[type="button"].no-margin-left {
   margin-left: 0;
 }
-/* line 195, ../sass/oatmeal_components.scss */
+/* line 263, ../sass/oatmeal_components.scss */
 .button.no-margin-right,
 .button.round.no-margin-right,
 .button.blue.no-margin-right,
@@ -1765,7 +2266,7 @@ input[type="reset"].no-margin-right,
 input[type="button"].no-margin-right {
   margin-right: 0;
 }
-/* line 198, ../sass/oatmeal_components.scss */
+/* line 266, ../sass/oatmeal_components.scss */
 .button.no-margin-top,
 .button.round.no-margin-top,
 .button.blue.no-margin-top,
@@ -1777,7 +2278,7 @@ input[type="reset"].no-margin-top,
 input[type="button"].no-margin-top {
   margin-top: 0;
 }
-/* line 201, ../sass/oatmeal_components.scss */
+/* line 269, ../sass/oatmeal_components.scss */
 .button.no-margin-bottom,
 .button.round.no-margin-bottom,
 .button.blue.no-margin-bottom,
@@ -1790,7 +2291,7 @@ input[type="button"].no-margin-bottom {
   margin-bottom: 0;
 }
 
-/* line 213, ../sass/oatmeal_components.scss */
+/* line 281, ../sass/oatmeal_components.scss */
 .button.centered,
 .button.round.centered,
 .button.blue.centered,
@@ -1803,29 +2304,29 @@ input[type="button"].centered {
   margin-bottom: 10px;
 }
 
-/* line 220, ../sass/oatmeal_components.scss */
+/* line 288, ../sass/oatmeal_components.scss */
 ::-webkit-input-placeholder {
   color: rgba(76, 76, 76, 0.67);
 }
 
-/* line 221, ../sass/oatmeal_components.scss */
+/* line 289, ../sass/oatmeal_components.scss */
 :-moz-placeholder {
   color: rgba(76, 76, 76, 0.67);
 }
 
-/* line 222, ../sass/oatmeal_components.scss */
+/* line 290, ../sass/oatmeal_components.scss */
 ::-moz-placeholder {
   color: rgba(76, 76, 76, 0.67);
 }
 
-/* line 223, ../sass/oatmeal_components.scss */
+/* line 291, ../sass/oatmeal_components.scss */
 :-ms-input-placeholder {
   color: rgba(76, 76, 76, 0.67);
 }
 
 /* Inputs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 227, ../sass/oatmeal_components.scss */
+/* line 298, ../sass/oatmeal_components.scss */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -1837,7 +2338,7 @@ input[type="color"],
 textarea,
 select {
   height: 45px;
-  padding: 11px 15px;
+  padding: 11px 20px;
   background-color: transparent;
   border-width: 2px;
   border-style: solid;
@@ -1851,7 +2352,7 @@ select {
   min-width: 150px;
   width: calc(100% - 20px);
 }
-/* line 252, ../sass/oatmeal_components.scss */
+/* line 323, ../sass/oatmeal_components.scss */
 input[type="email"].centered,
 input[type="number"].centered,
 input[type="search"].centered,
@@ -1866,163 +2367,276 @@ select.centered {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 258, ../sass/oatmeal_components.scss */
-input[type="email"]:focus, input[type="email"]:active,
+/* line 328, ../sass/oatmeal_components.scss */
+input[type="email"].half-width,
+input[type="number"].half-width,
+input[type="search"].half-width,
+input[type="text"].half-width,
+input[type="tel"].half-width,
+input[type="url"].half-width,
+input[type="password"].half-width,
+input[type="color"].half-width,
+textarea.half-width,
+select.half-width {
+  width: 50%;
+}
+/* line 333, ../sass/oatmeal_components.scss */
+input[type="email"]:focus, input[type="email"]:active, input[type="email"]:valid,
 input[type="number"]:focus,
 input[type="number"]:active,
+input[type="number"]:valid,
 input[type="search"]:focus,
 input[type="search"]:active,
+input[type="search"]:valid,
 input[type="text"]:focus,
 input[type="text"]:active,
+input[type="text"]:valid,
 input[type="tel"]:focus,
 input[type="tel"]:active,
+input[type="tel"]:valid,
 input[type="url"]:focus,
 input[type="url"]:active,
+input[type="url"]:valid,
 input[type="password"]:focus,
 input[type="password"]:active,
+input[type="password"]:valid,
 input[type="color"]:focus,
 input[type="color"]:active,
+input[type="color"]:valid,
 textarea:focus,
 textarea:active,
+textarea:valid,
 select:focus,
-select:active {
+select:active,
+select:valid {
   border-color: #69C6D7;
+  padding: 18px 25px 12px 15px;
   outline: 0;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.67);
 }
-/* line 260, ../sass/oatmeal_components.scss */
-input[type="email"]:focus.green, input[type="email"]:active.green,
+/* line 336, ../sass/oatmeal_components.scss */
+input[type="email"]:focus + label, input[type="email"]:active + label, input[type="email"]:valid + label,
+input[type="number"]:focus + label,
+input[type="number"]:active + label,
+input[type="number"]:valid + label,
+input[type="search"]:focus + label,
+input[type="search"]:active + label,
+input[type="search"]:valid + label,
+input[type="text"]:focus + label,
+input[type="text"]:active + label,
+input[type="text"]:valid + label,
+input[type="tel"]:focus + label,
+input[type="tel"]:active + label,
+input[type="tel"]:valid + label,
+input[type="url"]:focus + label,
+input[type="url"]:active + label,
+input[type="url"]:valid + label,
+input[type="password"]:focus + label,
+input[type="password"]:active + label,
+input[type="password"]:valid + label,
+input[type="color"]:focus + label,
+input[type="color"]:active + label,
+input[type="color"]:valid + label,
+textarea:focus + label,
+textarea:active + label,
+textarea:valid + label,
+select:focus + label,
+select:active + label,
+select:valid + label {
+  opacity: 0.8;
+  font-size: 10px;
+  -webkit-transform: translate3d(3px, -12px, 0);
+  -moz-transform: translate3d(3px, -12px, 0);
+  -o-transform: translate3d(3px, -12px, 0);
+  transform: translate3d(3px, -12px, 0);
+}
+/* line 344, ../sass/oatmeal_components.scss */
+input[type="email"]:focus.green, input[type="email"]:active.green, input[type="email"]:valid.green,
 input[type="number"]:focus.green,
 input[type="number"]:active.green,
+input[type="number"]:valid.green,
 input[type="search"]:focus.green,
 input[type="search"]:active.green,
+input[type="search"]:valid.green,
 input[type="text"]:focus.green,
 input[type="text"]:active.green,
+input[type="text"]:valid.green,
 input[type="tel"]:focus.green,
 input[type="tel"]:active.green,
+input[type="tel"]:valid.green,
 input[type="url"]:focus.green,
 input[type="url"]:active.green,
+input[type="url"]:valid.green,
 input[type="password"]:focus.green,
 input[type="password"]:active.green,
+input[type="password"]:valid.green,
 input[type="color"]:focus.green,
 input[type="color"]:active.green,
+input[type="color"]:valid.green,
 textarea:focus.green,
 textarea:active.green,
+textarea:valid.green,
 select:focus.green,
-select:active.green {
+select:active.green,
+select:valid.green {
   border-color: #64D269;
 }
-/* line 263, ../sass/oatmeal_components.scss */
-input[type="email"]:focus.blue, input[type="email"]:active.blue,
+/* line 347, ../sass/oatmeal_components.scss */
+input[type="email"]:focus.blue, input[type="email"]:active.blue, input[type="email"]:valid.blue,
 input[type="number"]:focus.blue,
 input[type="number"]:active.blue,
+input[type="number"]:valid.blue,
 input[type="search"]:focus.blue,
 input[type="search"]:active.blue,
+input[type="search"]:valid.blue,
 input[type="text"]:focus.blue,
 input[type="text"]:active.blue,
+input[type="text"]:valid.blue,
 input[type="tel"]:focus.blue,
 input[type="tel"]:active.blue,
+input[type="tel"]:valid.blue,
 input[type="url"]:focus.blue,
 input[type="url"]:active.blue,
+input[type="url"]:valid.blue,
 input[type="password"]:focus.blue,
 input[type="password"]:active.blue,
+input[type="password"]:valid.blue,
 input[type="color"]:focus.blue,
 input[type="color"]:active.blue,
+input[type="color"]:valid.blue,
 textarea:focus.blue,
 textarea:active.blue,
+textarea:valid.blue,
 select:focus.blue,
-select:active.blue {
+select:active.blue,
+select:valid.blue {
   border-color: #69C6D7;
 }
-/* line 266, ../sass/oatmeal_components.scss */
-input[type="email"]:focus.red, input[type="email"]:active.red,
+/* line 350, ../sass/oatmeal_components.scss */
+input[type="email"]:focus.red, input[type="email"]:active.red, input[type="email"]:valid.red,
 input[type="number"]:focus.red,
 input[type="number"]:active.red,
+input[type="number"]:valid.red,
 input[type="search"]:focus.red,
 input[type="search"]:active.red,
+input[type="search"]:valid.red,
 input[type="text"]:focus.red,
 input[type="text"]:active.red,
+input[type="text"]:valid.red,
 input[type="tel"]:focus.red,
 input[type="tel"]:active.red,
+input[type="tel"]:valid.red,
 input[type="url"]:focus.red,
 input[type="url"]:active.red,
+input[type="url"]:valid.red,
 input[type="password"]:focus.red,
 input[type="password"]:active.red,
+input[type="password"]:valid.red,
 input[type="color"]:focus.red,
 input[type="color"]:active.red,
+input[type="color"]:valid.red,
 textarea:focus.red,
 textarea:active.red,
+textarea:valid.red,
 select:focus.red,
-select:active.red {
+select:active.red,
+select:valid.red {
   border-color: #E65045;
 }
-/* line 269, ../sass/oatmeal_components.scss */
-input[type="email"]:focus.yellow, input[type="email"]:active.yellow,
+/* line 353, ../sass/oatmeal_components.scss */
+input[type="email"]:focus.yellow, input[type="email"]:active.yellow, input[type="email"]:valid.yellow,
 input[type="number"]:focus.yellow,
 input[type="number"]:active.yellow,
+input[type="number"]:valid.yellow,
 input[type="search"]:focus.yellow,
 input[type="search"]:active.yellow,
+input[type="search"]:valid.yellow,
 input[type="text"]:focus.yellow,
 input[type="text"]:active.yellow,
+input[type="text"]:valid.yellow,
 input[type="tel"]:focus.yellow,
 input[type="tel"]:active.yellow,
+input[type="tel"]:valid.yellow,
 input[type="url"]:focus.yellow,
 input[type="url"]:active.yellow,
+input[type="url"]:valid.yellow,
 input[type="password"]:focus.yellow,
 input[type="password"]:active.yellow,
+input[type="password"]:valid.yellow,
 input[type="color"]:focus.yellow,
 input[type="color"]:active.yellow,
+input[type="color"]:valid.yellow,
 textarea:focus.yellow,
 textarea:active.yellow,
+textarea:valid.yellow,
 select:focus.yellow,
-select:active.yellow {
+select:active.yellow,
+select:valid.yellow {
   border-color: #EDB04D;
 }
-/* line 272, ../sass/oatmeal_components.scss */
-input[type="email"]:focus.gray, input[type="email"]:active.gray,
+/* line 356, ../sass/oatmeal_components.scss */
+input[type="email"]:focus.gray, input[type="email"]:active.gray, input[type="email"]:valid.gray,
 input[type="number"]:focus.gray,
 input[type="number"]:active.gray,
+input[type="number"]:valid.gray,
 input[type="search"]:focus.gray,
 input[type="search"]:active.gray,
+input[type="search"]:valid.gray,
 input[type="text"]:focus.gray,
 input[type="text"]:active.gray,
+input[type="text"]:valid.gray,
 input[type="tel"]:focus.gray,
 input[type="tel"]:active.gray,
+input[type="tel"]:valid.gray,
 input[type="url"]:focus.gray,
 input[type="url"]:active.gray,
+input[type="url"]:valid.gray,
 input[type="password"]:focus.gray,
 input[type="password"]:active.gray,
+input[type="password"]:valid.gray,
 input[type="color"]:focus.gray,
 input[type="color"]:active.gray,
+input[type="color"]:valid.gray,
 textarea:focus.gray,
 textarea:active.gray,
+textarea:valid.gray,
 select:focus.gray,
-select:active.gray {
+select:active.gray,
+select:valid.gray {
   border-color: #BBBBBB;
 }
-/* line 277, ../sass/oatmeal_components.scss */
-input[type="email"]:focus.no-focus-effect, input[type="email"]:active.no-focus-effect,
+/* line 361, ../sass/oatmeal_components.scss */
+input[type="email"]:focus.no-focus-effect, input[type="email"]:active.no-focus-effect, input[type="email"]:valid.no-focus-effect,
 input[type="number"]:focus.no-focus-effect,
 input[type="number"]:active.no-focus-effect,
+input[type="number"]:valid.no-focus-effect,
 input[type="search"]:focus.no-focus-effect,
 input[type="search"]:active.no-focus-effect,
+input[type="search"]:valid.no-focus-effect,
 input[type="text"]:focus.no-focus-effect,
 input[type="text"]:active.no-focus-effect,
+input[type="text"]:valid.no-focus-effect,
 input[type="tel"]:focus.no-focus-effect,
 input[type="tel"]:active.no-focus-effect,
+input[type="tel"]:valid.no-focus-effect,
 input[type="url"]:focus.no-focus-effect,
 input[type="url"]:active.no-focus-effect,
+input[type="url"]:valid.no-focus-effect,
 input[type="password"]:focus.no-focus-effect,
 input[type="password"]:active.no-focus-effect,
+input[type="password"]:valid.no-focus-effect,
 input[type="color"]:focus.no-focus-effect,
 input[type="color"]:active.no-focus-effect,
+input[type="color"]:valid.no-focus-effect,
 textarea:focus.no-focus-effect,
 textarea:active.no-focus-effect,
+textarea:valid.no-focus-effect,
 select:focus.no-focus-effect,
-select:active.no-focus-effect {
+select:active.no-focus-effect,
+select:valid.no-focus-effect {
   box-shadow: 0 0 0 0;
 }
-/* line 282, ../sass/oatmeal_components.scss */
+/* line 366, ../sass/oatmeal_components.scss */
 input[type="email"].round,
 input[type="number"].round,
 input[type="search"].round,
@@ -2035,7 +2649,7 @@ textarea.round,
 select.round {
   border-radius: 30px;
 }
-/* line 286, ../sass/oatmeal_components.scss */
+/* line 370, ../sass/oatmeal_components.scss */
 input[type="email"].underline,
 input[type="number"].underline,
 input[type="search"].underline,
@@ -2050,8 +2664,9 @@ select.underline {
   border-left-width: 0;
   border-right-width: 0;
   border-bottom-width: 4px;
+  box-shadow: 0 0 0 0;
 }
-/* line 291, ../sass/oatmeal_components.scss */
+/* line 376, ../sass/oatmeal_components.scss */
 input[type="email"].underline:focus, input[type="email"].underline:active,
 input[type="number"].underline:focus,
 input[type="number"].underline:active,
@@ -2073,7 +2688,7 @@ select.underline:focus,
 select.underline:active {
   box-shadow: 0 0 0 0;
 }
-/* line 296, ../sass/oatmeal_components.scss */
+/* line 381, ../sass/oatmeal_components.scss */
 input[type="email"].round-filled, input[type="email"].sharp-filled,
 input[type="number"].round-filled,
 input[type="number"].sharp-filled,
@@ -2097,7 +2712,51 @@ select.sharp-filled {
   background-color: #69C6D7;
   border-color: #69C6D7;
 }
-/* line 301, ../sass/oatmeal_components.scss */
+/* line 386, ../sass/oatmeal_components.scss */
+input[type="email"].round-filled + label, input[type="email"].sharp-filled + label,
+input[type="number"].round-filled + label,
+input[type="number"].sharp-filled + label,
+input[type="search"].round-filled + label,
+input[type="search"].sharp-filled + label,
+input[type="text"].round-filled + label,
+input[type="text"].sharp-filled + label,
+input[type="tel"].round-filled + label,
+input[type="tel"].sharp-filled + label,
+input[type="url"].round-filled + label,
+input[type="url"].sharp-filled + label,
+input[type="password"].round-filled + label,
+input[type="password"].sharp-filled + label,
+input[type="color"].round-filled + label,
+input[type="color"].sharp-filled + label,
+textarea.round-filled + label,
+textarea.sharp-filled + label,
+select.round-filled + label,
+select.sharp-filled + label {
+  color: white;
+}
+/* line 389, ../sass/oatmeal_components.scss */
+input[type="email"].round-filled + .dark, input[type="email"].sharp-filled + .dark,
+input[type="number"].round-filled + .dark,
+input[type="number"].sharp-filled + .dark,
+input[type="search"].round-filled + .dark,
+input[type="search"].sharp-filled + .dark,
+input[type="text"].round-filled + .dark,
+input[type="text"].sharp-filled + .dark,
+input[type="tel"].round-filled + .dark,
+input[type="tel"].sharp-filled + .dark,
+input[type="url"].round-filled + .dark,
+input[type="url"].sharp-filled + .dark,
+input[type="password"].round-filled + .dark,
+input[type="password"].sharp-filled + .dark,
+input[type="color"].round-filled + .dark,
+input[type="color"].sharp-filled + .dark,
+textarea.round-filled + .dark,
+textarea.sharp-filled + .dark,
+select.round-filled + .dark,
+select.sharp-filled + .dark {
+  color: #4c4c4c;
+}
+/* line 393, ../sass/oatmeal_components.scss */
 input[type="email"].round-filled.green, input[type="email"].sharp-filled.green,
 input[type="number"].round-filled.green,
 input[type="number"].sharp-filled.green,
@@ -2120,7 +2779,7 @@ select.sharp-filled.green {
   background-color: #64D269;
   border-color: #64D269;
 }
-/* line 305, ../sass/oatmeal_components.scss */
+/* line 397, ../sass/oatmeal_components.scss */
 input[type="email"].round-filled.blue, input[type="email"].sharp-filled.blue,
 input[type="number"].round-filled.blue,
 input[type="number"].sharp-filled.blue,
@@ -2143,7 +2802,7 @@ select.sharp-filled.blue {
   background-color: #69C6D7;
   border-color: #69C6D7;
 }
-/* line 309, ../sass/oatmeal_components.scss */
+/* line 401, ../sass/oatmeal_components.scss */
 input[type="email"].round-filled.red, input[type="email"].sharp-filled.red,
 input[type="number"].round-filled.red,
 input[type="number"].sharp-filled.red,
@@ -2166,7 +2825,7 @@ select.sharp-filled.red {
   background-color: #E65045;
   border-color: #E65045;
 }
-/* line 313, ../sass/oatmeal_components.scss */
+/* line 405, ../sass/oatmeal_components.scss */
 input[type="email"].round-filled.yellow, input[type="email"].sharp-filled.yellow,
 input[type="number"].round-filled.yellow,
 input[type="number"].sharp-filled.yellow,
@@ -2189,7 +2848,7 @@ select.sharp-filled.yellow {
   background-color: #EDB04D;
   border-color: #EDB04D;
 }
-/* line 317, ../sass/oatmeal_components.scss */
+/* line 409, ../sass/oatmeal_components.scss */
 input[type="email"].round-filled.gray, input[type="email"].sharp-filled.gray,
 input[type="number"].round-filled.gray,
 input[type="number"].sharp-filled.gray,
@@ -2212,7 +2871,7 @@ select.sharp-filled.gray {
   background-color: #BBBBBB;
   border-color: #BBBBBB;
 }
-/* line 322, ../sass/oatmeal_components.scss */
+/* line 414, ../sass/oatmeal_components.scss */
 input[type="email"].sharp-filled,
 input[type="number"].sharp-filled,
 input[type="search"].sharp-filled,
@@ -2225,9 +2884,35 @@ textarea.sharp-filled,
 select.sharp-filled {
   border-radius: 0;
 }
+/* line 417, ../sass/oatmeal_components.scss */
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+input[type="search"]:disabled,
+input[type="text"]:disabled,
+input[type="tel"]:disabled,
+input[type="url"]:disabled,
+input[type="password"]:disabled,
+input[type="color"]:disabled,
+textarea:disabled,
+select:disabled {
+  background-color: #BBBBBB;
+}
+/* line 419, ../sass/oatmeal_components.scss */
+input[type="email"]:disabled + label,
+input[type="number"]:disabled + label,
+input[type="search"]:disabled + label,
+input[type="text"]:disabled + label,
+input[type="tel"]:disabled + label,
+input[type="url"]:disabled + label,
+input[type="password"]:disabled + label,
+input[type="color"]:disabled + label,
+textarea:disabled + label,
+select:disabled + label {
+  color: white;
+}
 
 /* Removes awkward default styles on some inputs for iOS */
-/* line 327, ../sass/oatmeal_components.scss */
+/* line 425, ../sass/oatmeal_components.scss */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -2242,34 +2927,50 @@ textarea {
   appearance: none;
 }
 
-/* line 339, ../sass/oatmeal_components.scss */
+/* line 437, ../sass/oatmeal_components.scss */
 textarea {
   min-height: 65px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 343, ../sass/oatmeal_components.scss */
+/* line 441, ../sass/oatmeal_components.scss */
 label,
 legend {
+  position: absolute;
+  top: 22px;
+  left: 23px;
+  font-size: 12px;
+  color: #BBBBBB;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
   display: block;
   margin-bottom: .5rem;
   font-weight: 600;
 }
 
-/* line 348, ../sass/oatmeal_components.scss */
+/* line 459, ../sass/oatmeal_components.scss */
 fieldset {
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
   padding: 0;
   border-width: 0;
 }
 
-/* line 351, ../sass/oatmeal_components.scss */
+/* line 465, ../sass/oatmeal_components.scss */
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
 }
 
-/* line 354, ../sass/oatmeal_components.scss */
+/* line 468, ../sass/oatmeal_components.scss */
 label > .label-body {
   display: inline-block;
   margin-left: .5rem;
@@ -2278,7 +2979,7 @@ label > .label-body {
 
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 361, ../sass/oatmeal_components.scss */
+/* line 475, ../sass/oatmeal_components.scss */
 .navigation {
   z-index: 10000;
   background-color: #3c3c3c;
@@ -2293,14 +2994,14 @@ label > .label-body {
   box-shadow: 5px 0px 2px 0px rgba(0, 0, 0, 0.25);
 }
 @media screen and (max-width: 950px) {
-  /* line 361, ../sass/oatmeal_components.scss */
+  /* line 475, ../sass/oatmeal_components.scss */
   .navigation {
     left: -260px;
     position: fixed;
   }
 }
 
-/* line 380, ../sass/oatmeal_components.scss */
+/* line 494, ../sass/oatmeal_components.scss */
 .navigation-toggle {
   z-index: 9999;
   height: 50px;
@@ -2318,19 +3019,19 @@ label > .label-body {
   transform: scale(0.9);
   box-shadow: 0px 4px 0 0 rgba(0, 0, 0, 0.8), 3px 7px 2px 2px rgba(0, 0, 0, 0.2);
 }
-/* line 396, ../sass/oatmeal_components.scss */
+/* line 510, ../sass/oatmeal_components.scss */
 .navigation-toggle:hover {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-/* line 400, ../sass/oatmeal_components.scss */
+/* line 514, ../sass/oatmeal_components.scss */
 .navigation-toggle a {
   width: 30px;
   height: 30px;
   margin: auto;
 }
 
-/* line 407, ../sass/oatmeal_components.scss */
+/* line 521, ../sass/oatmeal_components.scss */
 .navigation-overlay {
   z-index: 1000;
   width: 100%;
@@ -2341,18 +3042,18 @@ label > .label-body {
   transition: background-color 2s ease;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 416, ../sass/oatmeal_components.scss */
+/* line 530, ../sass/oatmeal_components.scss */
 .navigation-overlay.invisible {
   background-color: transparent;
 }
 
 /* Dropdowns
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 423, ../sass/oatmeal_components.scss */
+/* line 537, ../sass/oatmeal_components.scss */
 .dropdown {
   position: relative;
 }
-/* line 426, ../sass/oatmeal_components.scss */
+/* line 540, ../sass/oatmeal_components.scss */
 .dropdown .dropdown-title {
   position: absolute;
   z-index: 0;
@@ -2360,7 +3061,7 @@ label > .label-body {
   margin: 0;
   border-radius: 0;
 }
-/* line 434, ../sass/oatmeal_components.scss */
+/* line 548, ../sass/oatmeal_components.scss */
 .dropdown .dropdown-items {
   position: absolute;
   height: 0;
@@ -2375,8 +3076,9 @@ label > .label-body {
   margin: auto;
   border-radius: 3px;
 }
-/* line 449, ../sass/oatmeal_components.scss */
+/* line 563, ../sass/oatmeal_components.scss */
 .dropdown .dropdown-items .dropdown-item {
+  color: #4c4c4c;
   display: block;
   width: 100%;
   background-color: #e2e2e2;
@@ -2385,24 +3087,25 @@ label > .label-body {
   border-radius: 0;
   margin: 0;
   transition: 0.05s ease;
+  padding: 11px;
 }
-/* line 458, ../sass/oatmeal_components.scss */
+/* line 574, ../sass/oatmeal_components.scss */
 .dropdown .dropdown-items .dropdown-item:hover {
   background-color: #D8D8D8;
   box-sizing: 0 0 0;
 }
-/* line 465, ../sass/oatmeal_components.scss */
+/* line 581, ../sass/oatmeal_components.scss */
 .dropdown.shown .dropdown-title {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.67);
 }
-/* line 470, ../sass/oatmeal_components.scss */
+/* line 586, ../sass/oatmeal_components.scss */
 .dropdown.sharp .dropdown-title, .dropdown.sharp .dropdown-items {
   border-radius: 0;
 }
 
 /* collapsible
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 478, ../sass/oatmeal_components.scss */
+/* line 594, ../sass/oatmeal_components.scss */
 .collapsible {
   border-radius: 3px;
   overflow: hidden;
@@ -2412,13 +3115,13 @@ label > .label-body {
   max-width: 400px;
   transition: 0.2s ease;
 }
-/* line 486, ../sass/oatmeal_components.scss */
+/* line 602, ../sass/oatmeal_components.scss */
 .collapsible .collapsible-item {
   width: 100%;
   transition: 0.2s ease;
   overflow: hidden;
 }
-/* line 490, ../sass/oatmeal_components.scss */
+/* line 606, ../sass/oatmeal_components.scss */
 .collapsible .collapsible-item .collapsible-header {
   padding: 15px;
   transition: 0.1s ease;
@@ -2428,11 +3131,11 @@ label > .label-body {
   cursor: pointer;
   color: #4c4c4c;
 }
-/* line 498, ../sass/oatmeal_components.scss */
+/* line 614, ../sass/oatmeal_components.scss */
 .collapsible .collapsible-item .collapsible-header:hover {
   background-color: #d4d4d4;
 }
-/* line 502, ../sass/oatmeal_components.scss */
+/* line 618, ../sass/oatmeal_components.scss */
 .collapsible .collapsible-item .collapsible-body {
   transition: 0.2s ease;
   overflow: hidden;
@@ -2446,7 +3149,7 @@ label > .label-body {
 
 /* Modals
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 517, ../sass/oatmeal_components.scss */
+/* line 633, ../sass/oatmeal_components.scss */
 .modal {
   position: fixed;
   z-index: 10003;
@@ -2473,7 +3176,7 @@ label > .label-body {
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
 }
-/* line 542, ../sass/oatmeal_components.scss */
+/* line 658, ../sass/oatmeal_components.scss */
 .modal.active {
   opacity: 1;
   transform: scaleX(1);
@@ -2481,7 +3184,7 @@ label > .label-body {
   -moz-transform: scaleX(1);
   -o-transform: scaleX(1);
 }
-/* line 549, ../sass/oatmeal_components.scss */
+/* line 665, ../sass/oatmeal_components.scss */
 .modal .modal-content {
   text-align: left;
   padding: 3rem;
@@ -2491,46 +3194,46 @@ label > .label-body {
   overflow-y: auto;
   font-size: 14px;
 }
-/* line 557, ../sass/oatmeal_components.scss */
+/* line 673, ../sass/oatmeal_components.scss */
 .modal .modal-content h1, .modal .modal-content h2, .modal .modal-content h3, .modal .modal-content h4, .modal .modal-content h5, .modal .modal-content p {
   text-align: left;
 }
-/* line 560, ../sass/oatmeal_components.scss */
+/* line 676, ../sass/oatmeal_components.scss */
 .modal .modal-content p {
   font-size: 14px;
   line-height: 2;
 }
-/* line 565, ../sass/oatmeal_components.scss */
+/* line 681, ../sass/oatmeal_components.scss */
 .modal .modal-footer {
   padding: 0;
   background-color: #D8D8D8;
   height: 65px;
   box-shadow: inset 0 1px 2px 0px rgba(0, 0, 0, 0.3);
 }
-/* line 571, ../sass/oatmeal_components.scss */
+/* line 687, ../sass/oatmeal_components.scss */
 .modal.fixed-footer {
   height: 70%;
 }
-/* line 574, ../sass/oatmeal_components.scss */
+/* line 690, ../sass/oatmeal_components.scss */
 .modal.fixed-footer > * {
   position: absolute;
   width: 100%;
 }
-/* line 578, ../sass/oatmeal_components.scss */
+/* line 694, ../sass/oatmeal_components.scss */
 .modal.fixed-footer .modal-content {
   height: calc(100% - 65px);
 }
-/* line 581, ../sass/oatmeal_components.scss */
+/* line 697, ../sass/oatmeal_components.scss */
 .modal.fixed-footer .modal-footer {
   bottom: 0;
 }
-/* line 583, ../sass/oatmeal_components.scss */
+/* line 699, ../sass/oatmeal_components.scss */
 .modal.fixed-footer .modal-footer > * {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 590, ../sass/oatmeal_components.scss */
+/* line 706, ../sass/oatmeal_components.scss */
 .modal-overlay {
   position: fixed;
   z-index: 10002;
@@ -2577,19 +3280,19 @@ label > .label-body {
 /* line 23, ../sass/oatmeal_helpers.scss */
 .align-top {
   vertical-align: top;
-  display: block;
+  display: inline-block;
 }
 
 /* line 27, ../sass/oatmeal_helpers.scss */
 .align-bottom {
   vertical-align: bottom;
-  display: block;
+  display: inline-block;
 }
 
 /* line 31, ../sass/oatmeal_helpers.scss */
 .align-middle {
   vertical-align: middle;
-  display: block;
+  display: inline-block;
 }
 
 /* Cursor
@@ -2647,7 +3350,7 @@ label > .label-body {
 }
 
 /* line 69, ../sass/oatmeal_helpers.scss */
-.over-overlay {
+.overflow-overlay {
   overflow: overlay;
 }
 
@@ -2702,53 +3405,58 @@ label > .label-body {
 /* Padding
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* line 99, ../sass/oatmeal_helpers.scss */
+.unpadded {
+  padding: 0;
+}
+
+/* line 100, ../sass/oatmeal_helpers.scss */
 .padded {
   padding: 10px;
 }
 
-/* line 100, ../sass/oatmeal_helpers.scss */
+/* line 101, ../sass/oatmeal_helpers.scss */
 .padded-big {
   padding: 20px;
 }
 
-/* line 101, ../sass/oatmeal_helpers.scss */
+/* line 102, ../sass/oatmeal_helpers.scss */
 .padded-small {
   padding: 7px;
 }
 
 /* Positions, displays and visibility
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 106, ../sass/oatmeal_helpers.scss */
+/* line 107, ../sass/oatmeal_helpers.scss */
 .absolute {
   position: absolute;
 }
 
-/* line 107, ../sass/oatmeal_helpers.scss */
+/* line 108, ../sass/oatmeal_helpers.scss */
 .fixed {
   position: fixed;
 }
 
-/* line 108, ../sass/oatmeal_helpers.scss */
+/* line 109, ../sass/oatmeal_helpers.scss */
 .relative {
   position: relative;
 }
 
-/* line 109, ../sass/oatmeal_helpers.scss */
+/* line 110, ../sass/oatmeal_helpers.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 110, ../sass/oatmeal_helpers.scss */
+/* line 111, ../sass/oatmeal_helpers.scss */
 .block {
   display: block;
 }
 
-/* line 111, ../sass/oatmeal_helpers.scss */
+/* line 112, ../sass/oatmeal_helpers.scss */
 .none {
   display: none;
 }
 
-/* line 112, ../sass/oatmeal_helpers.scss */
+/* line 113, ../sass/oatmeal_helpers.scss */
 .flex {
   display: flex;
   display: -webkit-flexbox;
@@ -2766,49 +3474,49 @@ label > .label-body {
   -webkit-align-items: center;
 }
 
-/* line 128, ../sass/oatmeal_helpers.scss */
+/* line 129, ../sass/oatmeal_helpers.scss */
 .float-right {
   float: right;
 }
 
-/* line 129, ../sass/oatmeal_helpers.scss */
+/* line 130, ../sass/oatmeal_helpers.scss */
 .float-left {
   float: left;
 }
 
-/* line 131, ../sass/oatmeal_helpers.scss */
+/* line 132, ../sass/oatmeal_helpers.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 132, ../sass/oatmeal_helpers.scss */
+/* line 133, ../sass/oatmeal_helpers.scss */
 .invisible {
   opacity: 0;
 }
 
-/* line 134, ../sass/oatmeal_helpers.scss */
+/* line 135, ../sass/oatmeal_helpers.scss */
 .top {
   top: 0;
 }
 
-/* line 135, ../sass/oatmeal_helpers.scss */
+/* line 136, ../sass/oatmeal_helpers.scss */
 .left {
   left: 0;
 }
 
-/* line 136, ../sass/oatmeal_helpers.scss */
+/* line 137, ../sass/oatmeal_helpers.scss */
 .right {
   right: 0;
 }
 
-/* line 137, ../sass/oatmeal_helpers.scss */
+/* line 138, ../sass/oatmeal_helpers.scss */
 .bottom {
   bottom: 0;
 }
 
 /* Basic Components
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 142, ../sass/oatmeal_helpers.scss */
+/* line 143, ../sass/oatmeal_helpers.scss */
 .container {
   position: relative;
   width: 100%;
@@ -2816,7 +3524,7 @@ label > .label-body {
   box-sizing: border-box;
 }
 
-/* line 147, ../sass/oatmeal_helpers.scss */
+/* line 149, ../sass/oatmeal_helpers.scss */
 .section {
   width: 88%;
   display: block;
@@ -2825,7 +3533,7 @@ label > .label-body {
   text-align: center;
 }
 
-/* line 154, ../sass/oatmeal_helpers.scss */
+/* line 156, ../sass/oatmeal_helpers.scss */
 .form {
   width: 70%;
   display: block;
@@ -2836,7 +3544,7 @@ label > .label-body {
 
 /* Widths
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 164, ../sass/oatmeal_helpers.scss */
+/* line 166, ../sass/oatmeal_helpers.scss */
 .full-width {
   width: 100%;
   margin-left: 0;
@@ -2844,13 +3552,13 @@ label > .label-body {
   box-sizing: border-box;
 }
 
-/* line 170, ../sass/oatmeal_helpers.scss */
+/* line 172, ../sass/oatmeal_helpers.scss */
 .full-width-max {
   max-width: 100%;
   box-sizing: border-box;
 }
 
-/* line 175, ../sass/oatmeal_helpers.scss */
+/* line 177, ../sass/oatmeal_helpers.scss */
 .half-width {
   width: 50%;
   box-sizing: border-box;
@@ -2858,14 +3566,14 @@ label > .label-body {
 
 /* Box-shadow
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 183, ../sass/oatmeal_helpers.scss */
+/* line 185, ../sass/oatmeal_helpers.scss */
 .shadowed {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
-/* line 188, ../sass/oatmeal_helpers.scss */
+/* line 190, ../sass/oatmeal_helpers.scss */
 .shadowed-big {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -2874,95 +3582,100 @@ label > .label-body {
 
 /* Borders
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 196, ../sass/oatmeal_helpers.scss */
+/* line 198, ../sass/oatmeal_helpers.scss */
 .border {
   border-width: 2px;
   border-style: solid;
   border-color: #69C6D7;
 }
-/* line 200, ../sass/oatmeal_helpers.scss */
+/* line 202, ../sass/oatmeal_helpers.scss */
 .border.red {
   border-color: #E65045;
 }
-/* line 203, ../sass/oatmeal_helpers.scss */
+/* line 205, ../sass/oatmeal_helpers.scss */
 .border.blue {
   border-color: #69C6D7;
 }
-/* line 206, ../sass/oatmeal_helpers.scss */
+/* line 208, ../sass/oatmeal_helpers.scss */
 .border.green {
   border-color: #64D269;
 }
-/* line 209, ../sass/oatmeal_helpers.scss */
+/* line 211, ../sass/oatmeal_helpers.scss */
 .border.yellow {
   border-color: #EDB04D;
 }
-/* line 212, ../sass/oatmeal_helpers.scss */
+/* line 214, ../sass/oatmeal_helpers.scss */
 .border.gray {
   border-color: #BBBBBB;
 }
 
 /* Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 219, ../sass/oatmeal_helpers.scss */
+/* line 221, ../sass/oatmeal_helpers.scss */
 .blue.background {
   background-color: #69C6D7;
-}
-
-/* line 220, ../sass/oatmeal_helpers.scss */
-.red.background {
-  background-color: #E65045;
-}
-
-/* line 221, ../sass/oatmeal_helpers.scss */
-.yellow.background {
-  background-color: #EDB04D;
+  border-color: #69C6D7;
 }
 
 /* line 222, ../sass/oatmeal_helpers.scss */
-.green.background {
-  background-color: #64D269;
+.red.background {
+  background-color: #E65045;
+  border-color: #E65045;
 }
 
 /* line 223, ../sass/oatmeal_helpers.scss */
+.yellow.background {
+  background-color: #EDB04D;
+  border-color: #EDB04D;
+}
+
+/* line 224, ../sass/oatmeal_helpers.scss */
+.green.background {
+  background-color: #64D269;
+  border-color: #64D269;
+}
+
+/* line 225, ../sass/oatmeal_helpers.scss */
 .gray.background {
   background-color: #BBBBBB;
+  border-color: #BBBBBB;
 }
 
 /* Text
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 228, ../sass/oatmeal_helpers.scss */
+/* line 230, ../sass/oatmeal_helpers.scss */
 .capitalize {
   text-transform: capitalize;
 }
 
-/* line 229, ../sass/oatmeal_helpers.scss */
+/* line 231, ../sass/oatmeal_helpers.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 230, ../sass/oatmeal_helpers.scss */
+/* line 232, ../sass/oatmeal_helpers.scss */
 .lowercase {
   text-transform: lowercase;
 }
 
-/* line 232, ../sass/oatmeal_helpers.scss */
+/* line 234, ../sass/oatmeal_helpers.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 233, ../sass/oatmeal_helpers.scss */
+/* line 235, ../sass/oatmeal_helpers.scss */
 .light {
   font-weight: light;
 }
 
-/* line 234, ../sass/oatmeal_helpers.scss */
+/* line 236, ../sass/oatmeal_helpers.scss */
 .bolder {
   font-weight: bolder;
 }
 
 /* Clear
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 238, ../sass/oatmeal_helpers.scss */
+/* line 240, ../sass/oatmeal_helpers.scss */
 .clear-css,
 .clear-css:hover,
 .clear-css:active,

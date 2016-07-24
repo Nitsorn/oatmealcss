@@ -30,19 +30,19 @@
 /* line 23, ../sass/oatmeal_helpers.scss */
 .align-top {
   vertical-align: top;
-  display: block;
+  display: inline-block;
 }
 
 /* line 27, ../sass/oatmeal_helpers.scss */
 .align-bottom {
   vertical-align: bottom;
-  display: block;
+  display: inline-block;
 }
 
 /* line 31, ../sass/oatmeal_helpers.scss */
 .align-middle {
   vertical-align: middle;
-  display: block;
+  display: inline-block;
 }
 
 /* Cursor
@@ -100,7 +100,7 @@
 }
 
 /* line 69, ../sass/oatmeal_helpers.scss */
-.over-overlay {
+.overflow-overlay {
   overflow: overlay;
 }
 
@@ -155,53 +155,58 @@
 /* Padding
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* line 99, ../sass/oatmeal_helpers.scss */
+.unpadded {
+  padding: 0;
+}
+
+/* line 100, ../sass/oatmeal_helpers.scss */
 .padded {
   padding: 10px;
 }
 
-/* line 100, ../sass/oatmeal_helpers.scss */
+/* line 101, ../sass/oatmeal_helpers.scss */
 .padded-big {
   padding: 20px;
 }
 
-/* line 101, ../sass/oatmeal_helpers.scss */
+/* line 102, ../sass/oatmeal_helpers.scss */
 .padded-small {
   padding: 7px;
 }
 
 /* Positions, displays and visibility
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 106, ../sass/oatmeal_helpers.scss */
+/* line 107, ../sass/oatmeal_helpers.scss */
 .absolute {
   position: absolute;
 }
 
-/* line 107, ../sass/oatmeal_helpers.scss */
+/* line 108, ../sass/oatmeal_helpers.scss */
 .fixed {
   position: fixed;
 }
 
-/* line 108, ../sass/oatmeal_helpers.scss */
+/* line 109, ../sass/oatmeal_helpers.scss */
 .relative {
   position: relative;
 }
 
-/* line 109, ../sass/oatmeal_helpers.scss */
+/* line 110, ../sass/oatmeal_helpers.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 110, ../sass/oatmeal_helpers.scss */
+/* line 111, ../sass/oatmeal_helpers.scss */
 .block {
   display: block;
 }
 
-/* line 111, ../sass/oatmeal_helpers.scss */
+/* line 112, ../sass/oatmeal_helpers.scss */
 .none {
   display: none;
 }
 
-/* line 112, ../sass/oatmeal_helpers.scss */
+/* line 113, ../sass/oatmeal_helpers.scss */
 .flex {
   display: flex;
   display: -webkit-flexbox;
@@ -219,49 +224,49 @@
   -webkit-align-items: center;
 }
 
-/* line 128, ../sass/oatmeal_helpers.scss */
+/* line 129, ../sass/oatmeal_helpers.scss */
 .float-right {
   float: right;
 }
 
-/* line 129, ../sass/oatmeal_helpers.scss */
+/* line 130, ../sass/oatmeal_helpers.scss */
 .float-left {
   float: left;
 }
 
-/* line 131, ../sass/oatmeal_helpers.scss */
+/* line 132, ../sass/oatmeal_helpers.scss */
 .visible {
   opacity: 1;
 }
 
-/* line 132, ../sass/oatmeal_helpers.scss */
+/* line 133, ../sass/oatmeal_helpers.scss */
 .invisible {
   opacity: 0;
 }
 
-/* line 134, ../sass/oatmeal_helpers.scss */
+/* line 135, ../sass/oatmeal_helpers.scss */
 .top {
   top: 0;
 }
 
-/* line 135, ../sass/oatmeal_helpers.scss */
+/* line 136, ../sass/oatmeal_helpers.scss */
 .left {
   left: 0;
 }
 
-/* line 136, ../sass/oatmeal_helpers.scss */
+/* line 137, ../sass/oatmeal_helpers.scss */
 .right {
   right: 0;
 }
 
-/* line 137, ../sass/oatmeal_helpers.scss */
+/* line 138, ../sass/oatmeal_helpers.scss */
 .bottom {
   bottom: 0;
 }
 
 /* Basic Components
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 142, ../sass/oatmeal_helpers.scss */
+/* line 143, ../sass/oatmeal_helpers.scss */
 .container {
   position: relative;
   width: 100%;
@@ -269,7 +274,7 @@
   box-sizing: border-box;
 }
 
-/* line 147, ../sass/oatmeal_helpers.scss */
+/* line 149, ../sass/oatmeal_helpers.scss */
 .section {
   width: 88%;
   display: block;
@@ -278,7 +283,7 @@
   text-align: center;
 }
 
-/* line 154, ../sass/oatmeal_helpers.scss */
+/* line 156, ../sass/oatmeal_helpers.scss */
 .form {
   width: 70%;
   display: block;
@@ -289,7 +294,7 @@
 
 /* Widths
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 164, ../sass/oatmeal_helpers.scss */
+/* line 166, ../sass/oatmeal_helpers.scss */
 .full-width {
   width: 100%;
   margin-left: 0;
@@ -297,13 +302,13 @@
   box-sizing: border-box;
 }
 
-/* line 170, ../sass/oatmeal_helpers.scss */
+/* line 172, ../sass/oatmeal_helpers.scss */
 .full-width-max {
   max-width: 100%;
   box-sizing: border-box;
 }
 
-/* line 175, ../sass/oatmeal_helpers.scss */
+/* line 177, ../sass/oatmeal_helpers.scss */
 .half-width {
   width: 50%;
   box-sizing: border-box;
@@ -311,14 +316,14 @@
 
 /* Box-shadow
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 183, ../sass/oatmeal_helpers.scss */
+/* line 185, ../sass/oatmeal_helpers.scss */
 .shadowed {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
-/* line 188, ../sass/oatmeal_helpers.scss */
+/* line 190, ../sass/oatmeal_helpers.scss */
 .shadowed-big {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -327,95 +332,100 @@
 
 /* Borders
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 196, ../sass/oatmeal_helpers.scss */
+/* line 198, ../sass/oatmeal_helpers.scss */
 .border {
   border-width: 2px;
   border-style: solid;
   border-color: #69C6D7;
 }
-/* line 200, ../sass/oatmeal_helpers.scss */
+/* line 202, ../sass/oatmeal_helpers.scss */
 .border.red {
   border-color: #E65045;
 }
-/* line 203, ../sass/oatmeal_helpers.scss */
+/* line 205, ../sass/oatmeal_helpers.scss */
 .border.blue {
   border-color: #69C6D7;
 }
-/* line 206, ../sass/oatmeal_helpers.scss */
+/* line 208, ../sass/oatmeal_helpers.scss */
 .border.green {
   border-color: #64D269;
 }
-/* line 209, ../sass/oatmeal_helpers.scss */
+/* line 211, ../sass/oatmeal_helpers.scss */
 .border.yellow {
   border-color: #EDB04D;
 }
-/* line 212, ../sass/oatmeal_helpers.scss */
+/* line 214, ../sass/oatmeal_helpers.scss */
 .border.gray {
   border-color: #BBBBBB;
 }
 
 /* Background
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 219, ../sass/oatmeal_helpers.scss */
+/* line 221, ../sass/oatmeal_helpers.scss */
 .blue.background {
   background-color: #69C6D7;
-}
-
-/* line 220, ../sass/oatmeal_helpers.scss */
-.red.background {
-  background-color: #E65045;
-}
-
-/* line 221, ../sass/oatmeal_helpers.scss */
-.yellow.background {
-  background-color: #EDB04D;
+  border-color: #69C6D7;
 }
 
 /* line 222, ../sass/oatmeal_helpers.scss */
-.green.background {
-  background-color: #64D269;
+.red.background {
+  background-color: #E65045;
+  border-color: #E65045;
 }
 
 /* line 223, ../sass/oatmeal_helpers.scss */
+.yellow.background {
+  background-color: #EDB04D;
+  border-color: #EDB04D;
+}
+
+/* line 224, ../sass/oatmeal_helpers.scss */
+.green.background {
+  background-color: #64D269;
+  border-color: #64D269;
+}
+
+/* line 225, ../sass/oatmeal_helpers.scss */
 .gray.background {
   background-color: #BBBBBB;
+  border-color: #BBBBBB;
 }
 
 /* Text
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 228, ../sass/oatmeal_helpers.scss */
+/* line 230, ../sass/oatmeal_helpers.scss */
 .capitalize {
   text-transform: capitalize;
 }
 
-/* line 229, ../sass/oatmeal_helpers.scss */
+/* line 231, ../sass/oatmeal_helpers.scss */
 .uppercase {
   text-transform: uppercase;
 }
 
-/* line 230, ../sass/oatmeal_helpers.scss */
+/* line 232, ../sass/oatmeal_helpers.scss */
 .lowercase {
   text-transform: lowercase;
 }
 
-/* line 232, ../sass/oatmeal_helpers.scss */
+/* line 234, ../sass/oatmeal_helpers.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 233, ../sass/oatmeal_helpers.scss */
+/* line 235, ../sass/oatmeal_helpers.scss */
 .light {
   font-weight: light;
 }
 
-/* line 234, ../sass/oatmeal_helpers.scss */
+/* line 236, ../sass/oatmeal_helpers.scss */
 .bolder {
   font-weight: bolder;
 }
 
 /* Clear
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 238, ../sass/oatmeal_helpers.scss */
+/* line 240, ../sass/oatmeal_helpers.scss */
 .clear-css,
 .clear-css:hover,
 .clear-css:active,

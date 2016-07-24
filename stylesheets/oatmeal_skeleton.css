@@ -103,85 +103,85 @@
   /* line 44, ../sass/oatmeal_skeleton.scss */
   .offset-by-one.column,
   .offset-by-one.columns {
-    margin-left: 8.66666666667%;
+    margin-left: 8.333333333333%;
   }
 
   /* line 46, ../sass/oatmeal_skeleton.scss */
   .offset-by-two.column,
   .offset-by-two.columns {
-    margin-left: 17.3333333333%;
+    margin-left: 16.666666666667%;
   }
 
   /* line 48, ../sass/oatmeal_skeleton.scss */
   .offset-by-three.column,
   .offset-by-three.columns {
-    margin-left: 26%;
+    margin-left: 25%;
   }
 
   /* line 50, ../sass/oatmeal_skeleton.scss */
   .offset-by-four.column,
   .offset-by-four.columns {
-    margin-left: 34.6666666667%;
+    margin-left: 33.333333333333%;
   }
 
   /* line 52, ../sass/oatmeal_skeleton.scss */
   .offset-by-five.column,
   .offset-by-five.columns {
-    margin-left: 43.3333333333%;
+    margin-left: 41.666666666667%;
   }
 
   /* line 54, ../sass/oatmeal_skeleton.scss */
   .offset-by-six.column,
   .offset-by-six.columns {
-    margin-left: 52%;
+    margin-left: 50%;
   }
 
   /* line 56, ../sass/oatmeal_skeleton.scss */
   .offset-by-seven.column,
   .offset-by-seven.columns {
-    margin-left: 60.6666666667%;
+    margin-left: 58.333333333333%;
   }
 
   /* line 58, ../sass/oatmeal_skeleton.scss */
   .offset-by-eight.column,
   .offset-by-eight.columns {
-    margin-left: 69.3333333333%;
+    margin-left: 66.666666666667%;
   }
 
   /* line 60, ../sass/oatmeal_skeleton.scss */
   .offset-by-nine.column,
   .offset-by-nine.columns {
-    margin-left: 78.0%;
+    margin-left: 75.0%;
   }
 
   /* line 62, ../sass/oatmeal_skeleton.scss */
   .offset-by-ten.column,
   .offset-by-ten.columns {
-    margin-left: 86.6666666667%;
+    margin-left: 83.333333333333%;
   }
 
   /* line 64, ../sass/oatmeal_skeleton.scss */
   .offset-by-eleven.column,
   .offset-by-eleven.columns {
-    margin-left: 95.3333333333%;
+    margin-left: 91.666666666667%;
   }
 
   /* line 67, ../sass/oatmeal_skeleton.scss */
   .offset-by-one-third.column,
   .offset-by-one-third.columns {
-    margin-left: 34.6666666667%;
+    margin-left: 33.333333333333%;
   }
 
   /* line 69, ../sass/oatmeal_skeleton.scss */
   .offset-by-two-thirds.column,
   .offset-by-two-thirds.columns {
-    margin-left: 69.3333333333%;
+    margin-left: 66.666666666667%;
   }
 
   /* line 72, ../sass/oatmeal_skeleton.scss */
   .offset-by-one-half.column,
   .offset-by-one-half.columns {
-    margin-left: 52%;
+    margin-left: 50%;
   }
 }
 /* Base Styles
